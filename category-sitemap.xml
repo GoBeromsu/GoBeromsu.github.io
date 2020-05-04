@@ -8,15 +8,29 @@
     </url>
 
     <url>
-        <loc>https://goberomsu.github.io/categories/Hexo/</loc>
-        <lastmod>2020-05-04T12:36:45.898Z</lastmod>
+        <loc>https://goberomsu.github.io/categories/Sound/</loc>
+        <lastmod>2020-05-04T13:55:55.339Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://goberomsu.github.io/categories/Sound/</loc>
-        <lastmod>2020-05-04T10:14:51.214Z</lastmod>
+        <loc>https://goberomsu.github.io/categories/Vscode/</loc>
+        <lastmod>2020-05-04T13:55:26.329Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/categories/Hacking/</loc>
+        <lastmod>2020-05-04T12:53:27.306Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/categories/Hexo/</loc>
+        <lastmod>2020-05-04T12:36:45.898Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -80,20 +94,6 @@
     <url>
         <loc>https://goberomsu.github.io/categories/%25EC%259E%2590%25EA%25B2%25A9%25EC%25A6%259D/%25EC%25A0%2595%25EB%25B3%25B4%25EC%25B2%2598%25EB%25A6%25AC%25EC%2582%25B0%25EC%2597%2585%25EA%25B8%25B0%25EC%2582%25AC/OS/</loc>
         <lastmod>2020-05-04T08:49:08.379Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/Vscode/</loc>
-        <lastmod>2020-05-04T08:45:16.712Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/Hacking/</loc>
-        <lastmod>2020-05-04T08:42:15.425Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

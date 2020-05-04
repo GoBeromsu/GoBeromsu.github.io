@@ -8,6 +8,30 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/2020/05/04/CrusadeSetUp/</loc>
+        <lastmod>2020-05-04T13:55:55.339Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/04/30/VscodeExtension/</loc>
+        <lastmod>2020-05-04T13:55:26.329Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/05/03/Linux_kali/</loc>
+        <lastmod>2020-05-04T12:53:27.306Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/2020/05/03/GoHexo/</loc>
         <lastmod>2020-05-04T12:36:45.898Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -88,14 +112,6 @@
     </url>
 
     <url>
-        <loc>https://goberomsu.github.io/2020/05/04/CrusadeSetUp/</loc>
-        <lastmod>2020-05-04T08:58:29.973Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://goberomsu.github.io/2020/04/04/Getitstartgit/</loc>
         <lastmod>2020-05-04T08:53:16.489Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -162,22 +178,6 @@
     <url>
         <loc>https://goberomsu.github.io/2020/04/20/StartOfOs/</loc>
         <lastmod>2020-05-04T08:48:54.807Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/04/30/VscodeExtension/</loc>
-        <lastmod>2020-05-04T08:45:16.712Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/05/03/Linux_kali/</loc>
-        <lastmod>2020-05-04T08:42:15.425Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
