@@ -8,16 +8,16 @@
     </url>
 
     <url>
-        <loc>https://goberomsu.github.io/2020/05/04/jekyll-decoTheme/</loc>
-        <lastmod>2020-05-03T23:45:54.865Z</lastmod>
+        <loc>https://goberomsu.github.io/2020/04/19/Data_structure/</loc>
+        <lastmod>2020-05-04T02:09:29.452Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://goberomsu.github.io/2020/04/04/Memory/</loc>
-        <lastmod>2020-05-03T23:41:43.207Z</lastmod>
+        <loc>https://goberomsu.github.io/2020/04/20/StartOfOs/</loc>
+        <lastmod>2020-05-04T02:09:03.787Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -25,7 +25,7 @@
 
     <url>
         <loc>https://goberomsu.github.io/2020/04/05/DataBase/</loc>
-        <lastmod>2020-05-03T23:41:30.344Z</lastmod>
+        <lastmod>2020-05-04T02:08:59.602Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -33,7 +33,55 @@
 
     <url>
         <loc>https://goberomsu.github.io/2020/04/05/DataModeling/</loc>
-        <lastmod>2020-05-03T23:40:59.192Z</lastmod>
+        <lastmod>2020-05-04T02:08:53.955Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/04/30/Linux_general/</loc>
+        <lastmod>2020-05-04T02:08:49.384Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/05/04/Linux_operation/</loc>
+        <lastmod>2020-05-04T02:08:46.146Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/04/04/Memory/</loc>
+        <lastmod>2020-05-04T02:08:43.324Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/04/20/ProcessManagement/</loc>
+        <lastmod>2020-05-04T02:08:39.746Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/04/17/Relational%20Database/</loc>
+        <lastmod>2020-05-04T02:08:30.507Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/05/04/jekyll-decoTheme/</loc>
+        <lastmod>2020-05-03T23:45:54.865Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -56,40 +104,8 @@
     </url>
 
     <url>
-        <loc>https://goberomsu.github.io/2020/04/17/Relational%20Database/</loc>
-        <lastmod>2020-05-03T23:40:27.648Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/04/19/Data_structure/</loc>
-        <lastmod>2020-05-03T23:40:17.823Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://goberomsu.github.io/2020/04/19/Logic_gate/</loc>
         <lastmod>2020-05-03T23:40:06.871Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/04/20/ProcessManagement/</loc>
-        <lastmod>2020-05-03T23:39:55.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/04/20/StartOfOs/</loc>
-        <lastmod>2020-05-03T23:39:43.050Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -106,14 +122,6 @@
     <url>
         <loc>https://goberomsu.github.io/2020/04/22/Html%26Css/</loc>
         <lastmod>2020-05-03T23:39:08.354Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/04/30/Linux_general/</loc>
-        <lastmod>2020-05-03T23:38:49.506Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -138,14 +146,6 @@
     <url>
         <loc>https://goberomsu.github.io/2020/04/04/Getitstartgit/</loc>
         <lastmod>2020-05-03T23:38:04.464Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/05/04/Linux_operation/</loc>
-        <lastmod>2020-05-03T23:35:39.926Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
