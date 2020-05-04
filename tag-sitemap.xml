@@ -3,20 +3,6 @@
 
 
     <url>
-        <loc>https://goberomsu.github.io/tags/DB/</loc>
-        <lastmod>2020-05-04T02:09:29.452Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/tags/OS/</loc>
-        <lastmod>2020-05-04T02:09:03.787Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://goberomsu.github.io/tags/linux/</loc>
         <lastmod>2020-05-04T02:08:49.384Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -33,13 +19,6 @@
     <url>
         <loc>https://goberomsu.github.io/tags/C/</loc>
         <lastmod>2020-05-03T23:40:49.941Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/tags/Electronic-calculator-structure/</loc>
-        <lastmod>2020-05-03T23:40:06.871Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

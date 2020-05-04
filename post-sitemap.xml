@@ -8,8 +8,8 @@
     </url>
 
     <url>
-        <loc>https://goberomsu.github.io/2020/04/19/Data_structure/</loc>
-        <lastmod>2020-05-04T02:09:29.452Z</lastmod>
+        <loc>https://goberomsu.github.io/2020/04/17/Relational%20Database/</loc>
+        <lastmod>2020-05-04T02:16:06.742Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,7 +17,7 @@
 
     <url>
         <loc>https://goberomsu.github.io/2020/04/20/StartOfOs/</loc>
-        <lastmod>2020-05-04T02:09:03.787Z</lastmod>
+        <lastmod>2020-05-04T02:15:30.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -25,7 +25,23 @@
 
     <url>
         <loc>https://goberomsu.github.io/2020/04/05/DataBase/</loc>
-        <lastmod>2020-05-04T02:08:59.602Z</lastmod>
+        <lastmod>2020-05-04T02:15:26.685Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/04/19/Logic_gate/</loc>
+        <lastmod>2020-05-04T02:15:19.313Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/04/19/Data_structure/</loc>
+        <lastmod>2020-05-04T02:14:36.189Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -33,7 +49,23 @@
 
     <url>
         <loc>https://goberomsu.github.io/2020/04/05/DataModeling/</loc>
-        <lastmod>2020-05-04T02:08:53.955Z</lastmod>
+        <lastmod>2020-05-04T02:14:27.156Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/04/04/Memory/</loc>
+        <lastmod>2020-05-04T02:14:11.410Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/04/20/ProcessManagement/</loc>
+        <lastmod>2020-05-04T02:14:05.186Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -50,30 +82,6 @@
     <url>
         <loc>https://goberomsu.github.io/2020/05/04/Linux_operation/</loc>
         <lastmod>2020-05-04T02:08:46.146Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/04/04/Memory/</loc>
-        <lastmod>2020-05-04T02:08:43.324Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/04/20/ProcessManagement/</loc>
-        <lastmod>2020-05-04T02:08:39.746Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/04/17/Relational%20Database/</loc>
-        <lastmod>2020-05-04T02:08:30.507Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -98,14 +106,6 @@
     <url>
         <loc>https://goberomsu.github.io/2020/04/17/Jekyll_blogsetup/</loc>
         <lastmod>2020-05-03T23:40:38.832Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/04/19/Logic_gate/</loc>
-        <lastmod>2020-05-03T23:40:06.871Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
