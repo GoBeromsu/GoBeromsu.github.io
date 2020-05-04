@@ -8,6 +8,27 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/categories/Hacking/</loc>
+        <lastmod>2020-05-04T07:07:54.566Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/categories/Hexo/</loc>
+        <lastmod>2020-05-04T07:07:17.886Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/categories/Vscode/</loc>
+        <lastmod>2020-05-04T07:05:17.055Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/categories/%25EC%259E%2590%25EA%25B2%25A9%25EC%25A6%259D/Linux-Master/</loc>
         <lastmod>2020-05-04T06:58:57.768Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -73,13 +94,6 @@
     <url>
         <loc>https://goberomsu.github.io/categories/Sound/</loc>
         <lastmod>2020-05-03T23:38:34.413Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/Vscode/</loc>
-        <lastmod>2020-05-03T23:38:17.542Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

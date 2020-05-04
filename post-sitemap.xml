@@ -8,6 +8,30 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/2020/05/03/Linux_kali/</loc>
+        <lastmod>2020-05-04T07:07:54.566Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/05/03/GoHexo/</loc>
+        <lastmod>2020-05-04T07:07:17.886Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/04/30/VscodeExtension/</loc>
+        <lastmod>2020-05-04T07:05:17.055Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/2020/05/04/Linux_operation/</loc>
         <lastmod>2020-05-04T06:58:57.768Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -130,14 +154,6 @@
     <url>
         <loc>https://goberomsu.github.io/2020/04/30/Mysoundstudy/</loc>
         <lastmod>2020-05-03T23:38:34.413Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/04/30/VscodeExtension/</loc>
-        <lastmod>2020-05-03T23:38:17.542Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
