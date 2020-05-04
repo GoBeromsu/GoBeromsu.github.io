@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>리눅스 마스터 2급(리눅스 운영 및 관리) | Beomsu's Blog</title><meta name="description" content="null권한 및 그룹 설정  리눅스 시스템은 모든 파일과 디렉터리에 접근권한과 소유권이 부여됨 ls -l 명령어로 파일 속성을 볼 수 있음  null소유권 관련 명령어  chown  파일과 디렉터리의 사용자 소유권과 그룹 소유권을 변경한다   chgrp  파일이나 디렉터리의 그룹 소유권을 변경한다    null허가권 관련 명령어   ls -l 명령어로 파일"><meta name="keywords" content="linux"><meta name="author" content="밤수"><meta name="copyright" content="밤수"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="dns-prefetch" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://www.google-analytics.com" crossorigin="crossorigin"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="dns-prefetch" href="https://fonts.googleapis.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="dns-prefetch" href="//busuanzi.ibruce.info"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="리눅스 마스터 2급(리눅스 운영 및 관리)"><meta name="twitter:description" content="null권한 및 그룹 설정  리눅스 시스템은 모든 파일과 디렉터리에 접근권한과 소유권이 부여됨 ls -l 명령어로 파일 속성을 볼 수 있음  null소유권 관련 명령어  chown  파일과 디렉터리의 사용자 소유권과 그룹 소유권을 변경한다   chgrp  파일이나 디렉터리의 그룹 소유권을 변경한다    null허가권 관련 명령어   ls -l 명령어로 파일"><meta name="twitter:image" content="https://user-images.githubusercontent.com/37897508/80951191-5abbfd80-8e32-11ea-9fa0-33006336afd6.jpg"><meta property="og:type" content="article"><meta property="og:title" content="리눅스 마스터 2급(리눅스 운영 및 관리)"><meta property="og:url" content="https://goberomsu.github.io/2020/05/04/Linux_operation/"><meta property="og:site_name" content="Beomsu's Blog"><meta property="og:description" content="null권한 및 그룹 설정  리눅스 시스템은 모든 파일과 디렉터리에 접근권한과 소유권이 부여됨 ls -l 명령어로 파일 속성을 볼 수 있음  null소유권 관련 명령어  chown  파일과 디렉터리의 사용자 소유권과 그룹 소유권을 변경한다   chgrp  파일이나 디렉터리의 그룹 소유권을 변경한다    null허가권 관련 명령어   ls -l 명령어로 파일"><meta property="og:image" content="https://user-images.githubusercontent.com/37897508/80951191-5abbfd80-8e32-11ea-9fa0-33006336afd6.jpg"><meta property="article:published_time" content="2020-05-03T23:32:40.000Z"><meta property="article:modified_time" content="2020-05-04T09:09:51.315Z"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>var autoChangeMode = '1'
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>리눅스 마스터 2급(리눅스 운영 및 관리) | Beomsu's Blog</title><meta name="description" content="권한 및 그룹 설정  리눅스 시스템은 모든 파일과 디렉터리에 접근권한과 소유권이 부여됨 ls -l 명령어로 파일 속성을 볼 수 있음  소유권 관련 명령어  chown  파일과 디렉터리의 사용자 소유권과 그룹 소유권을 변경한다   chgrp  파일이나 디렉터리의 그룹 소유권을 변경한다    허가권 관련 명령어   ls -l 명령어로 파일 유형과 허가권을 알"><meta name="keywords" content="linux"><meta name="author" content="밤수"><meta name="copyright" content="밤수"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="dns-prefetch" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://www.google-analytics.com" crossorigin="crossorigin"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="dns-prefetch" href="https://fonts.googleapis.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="dns-prefetch" href="//busuanzi.ibruce.info"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="리눅스 마스터 2급(리눅스 운영 및 관리)"><meta name="twitter:description" content="권한 및 그룹 설정  리눅스 시스템은 모든 파일과 디렉터리에 접근권한과 소유권이 부여됨 ls -l 명령어로 파일 속성을 볼 수 있음  소유권 관련 명령어  chown  파일과 디렉터리의 사용자 소유권과 그룹 소유권을 변경한다   chgrp  파일이나 디렉터리의 그룹 소유권을 변경한다    허가권 관련 명령어   ls -l 명령어로 파일 유형과 허가권을 알"><meta name="twitter:image" content="https://user-images.githubusercontent.com/37897508/80951191-5abbfd80-8e32-11ea-9fa0-33006336afd6.jpg"><meta property="og:type" content="article"><meta property="og:title" content="리눅스 마스터 2급(리눅스 운영 및 관리)"><meta property="og:url" content="https://goberomsu.github.io/2020/05/04/Linux_operation/"><meta property="og:site_name" content="Beomsu's Blog"><meta property="og:description" content="권한 및 그룹 설정  리눅스 시스템은 모든 파일과 디렉터리에 접근권한과 소유권이 부여됨 ls -l 명령어로 파일 속성을 볼 수 있음  소유권 관련 명령어  chown  파일과 디렉터리의 사용자 소유권과 그룹 소유권을 변경한다   chgrp  파일이나 디렉터리의 그룹 소유권을 변경한다    허가권 관련 명령어   ls -l 명령어로 파일 유형과 허가권을 알"><meta property="og:image" content="https://user-images.githubusercontent.com/37897508/80951191-5abbfd80-8e32-11ea-9fa0-33006336afd6.jpg"><meta property="article:published_time" content="2020-05-03T23:32:40.000Z"><meta property="article:modified_time" content="2020-05-04T09:09:51.315Z"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>var autoChangeMode = '1'
 var t = Cookies.get("theme")
 if (autoChangeMode == '1'){
   var isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
@@ -90,12 +90,12 @@ ga('send', 'pageview');
 .justified-gallery img{
   opacity: 1
 }
-</style></noscript><meta name="generator" content="Hexo 4.2.0"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/Me.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">Articles</div><div class="length_num">22</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">Tags</div><div class="length_num">7</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">Categories</div><div class="length_num">13</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> Categories</span></a></div></div></div></div><i class="fa fa-arrow-right on" id="toggle-sidebar" aria-hidden="true">     </i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#권한-및-그룹-설정"><span class="toc-number">1.</span> <span class="toc-text">null권한 및 그룹 설정</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#소유권-관련-명령어"><span class="toc-number">1.1.</span> <span class="toc-text">null소유권 관련 명령어</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#허가권-관련-명령어"><span class="toc-number">1.2.</span> <span class="toc-text">null허가권 관련 명령어</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#특수-권한"><span class="toc-number">1.3.</span> <span class="toc-text">null특수 권한</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#디스크-쿼터"><span class="toc-number">1.4.</span> <span class="toc-text">null디스크 쿼터</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#디스크-쿼터-지정단계"><span class="toc-number">1.4.1.</span> <span class="toc-text">null디스크 쿼터 지정단계</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#디스크-쿼터-관련-명령어"><span class="toc-number">1.4.2.</span> <span class="toc-text">null디스크 쿼터 관련 명령어</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#파일-시스템의-관리"><span class="toc-number">2.</span> <span class="toc-text">null파일 시스템의 관리</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#파일-시스템의-개요와-종류"><span class="toc-number">2.1.</span> <span class="toc-text">null파일 시스템의 개요와 종류</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#개요"><span class="toc-number">2.1.1.</span> <span class="toc-text">null개요</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#종류"><span class="toc-number">2.1.2.</span> <span class="toc-text">null종류</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#리눅스-전용-디스크-기반-파일-시스템"><span class="toc-number">2.1.3.</span> <span class="toc-text">null리눅스 전용 디스크 기반 파일 시스템</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#저널링-파일-시스템"><span class="toc-number">2.1.4.</span> <span class="toc-text">null저널링 파일 시스템</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#네트워크-파일-시스템"><span class="toc-number">2.1.5.</span> <span class="toc-text">null네트워크 파일 시스템</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#기타-지원-가능한-파일-시스템"><span class="toc-number">2.1.6.</span> <span class="toc-text">null기타 지원 가능한 파일 시스템</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#관련-명령어"><span class="toc-number">2.1.7.</span> <span class="toc-text">null관련 명령어</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#셸-개념-및-종류"><span class="toc-number">3.</span> <span class="toc-text">null셸 개념 및 종류</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#개념"><span class="toc-number">3.1.</span> <span class="toc-text">null개념</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#종류-v2"><span class="toc-number">3.2.</span> <span class="toc-text">null종류</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#셸-확인-및-변경"><span class="toc-number">3.3.</span> <span class="toc-text">null셸 확인 및 변경</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#로그인-쉘-확인"><span class="toc-number">3.3.1.</span> <span class="toc-text">null로그인 쉘 확인</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#쉘-변경"><span class="toc-number">3.3.2.</span> <span class="toc-text">null쉘 변경</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#쉘-환경-설정"><span class="toc-number">4.</span> <span class="toc-text">null쉘 환경 설정</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#환경-변수와-쉘-변수"><span class="toc-number">4.1.</span> <span class="toc-text">null환경 변수와 쉘 변수</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#환경-변수"><span class="toc-number">4.1.1.</span> <span class="toc-text">null환경 변수</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#쉘-변수-지역-변수"><span class="toc-number">4.1.2.</span> <span class="toc-text">null쉘 변수(지역 변수)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#환경-설정-파일"><span class="toc-number">4.1.3.</span> <span class="toc-text">null환경 설정 파일</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#bash-shell의-주요-기능"><span class="toc-number">4.2.</span> <span class="toc-text">nullbash shell의 주요 기능</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#history-기능"><span class="toc-number">4.2.1.</span> <span class="toc-text">nullhistory 기능</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#alias-기능"><span class="toc-number">4.2.2.</span> <span class="toc-text">nullalias 기능</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#프로세스-개념-및-유형"><span class="toc-number">5.</span> <span class="toc-text">null프로세스 개념 및 유형</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#개념-v2"><span class="toc-number">5.1.</span> <span class="toc-text">null개념</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#프로세스-유형"><span class="toc-number">5.2.</span> <span class="toc-text">null프로세스 유형</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#포어그라운드-프로세스"><span class="toc-number">5.2.1.</span> <span class="toc-text">null포어그라운드 프로세스</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#백그라운드-프로세스"><span class="toc-number">5.2.2.</span> <span class="toc-text">null백그라운드 프로세스</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#fork"><span class="toc-number">5.2.3.</span> <span class="toc-text">nullfork</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#exec"><span class="toc-number">5.2.4.</span> <span class="toc-text">nullexec</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#데몬"><span class="toc-number">5.2.5.</span> <span class="toc-text">null데몬</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#프로세스-유틸리티"><span class="toc-number">6.</span> <span class="toc-text">null프로세스 유틸리티</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#프로세스-관련-명령어"><span class="toc-number">6.1.</span> <span class="toc-text">null프로세스 관련 명령어</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#스케줄링과-cron"><span class="toc-number">6.2.</span> <span class="toc-text">null스케줄링과 cron</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#에디터-종류"><span class="toc-number">7.</span> <span class="toc-text">null에디터 종류</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#개요-v2"><span class="toc-number">7.1.</span> <span class="toc-text">null개요</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#종류-v3"><span class="toc-number">7.2.</span> <span class="toc-text">null종류</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#소프트웨어-프로그램-설치"><span class="toc-number">8.</span> <span class="toc-text">null소프트웨어 프로그램 설치</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#계열"><span class="toc-number">8.1.</span> <span class="toc-text">null계열</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#특징"><span class="toc-number">8.2.</span> <span class="toc-text">null특징</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#소스-파일-설치"><span class="toc-number">9.</span> <span class="toc-text">null소스 파일 설치</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#파일-아카이브와-압축"><span class="toc-number">9.1.</span> <span class="toc-text">null파일 아카이브와 압축</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#파일-아카이브"><span class="toc-number">9.1.1.</span> <span class="toc-text">null파일 아카이브</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#파일-압축과-해제"><span class="toc-number">9.1.2.</span> <span class="toc-text">null파일 압축과 해제</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#소스-코드-설치"><span class="toc-number">9.2.</span> <span class="toc-text">null소스 코드 설치</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#주변-장치-연결-및-설정"><span class="toc-number">10.</span> <span class="toc-text">null주변 장치 연결 및 설정</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#프린터-인쇄-시스템-설치-및-설정"><span class="toc-number">10.1.</span> <span class="toc-text">null프린터 인쇄 시스템 설치 및 설정</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#사운드-카드-설치-및-설정"><span class="toc-number">10.2.</span> <span class="toc-text">null사운드 카드 설치 및 설정</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#OSS-open-sound-system"><span class="toc-number">10.2.1.</span> <span class="toc-text">nullOSS(open sound system)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ALSA-Advanced-Linux-Sound-Architecture"><span class="toc-number">10.2.2.</span> <span class="toc-text">nullALSA(Advanced Linux Sound Architecture)</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#스캐너-설치-및-설정"><span class="toc-number">10.3.</span> <span class="toc-text">null스캐너 설치 및 설정</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#SANE-Scanner-Access-Now-Easy"><span class="toc-number">10.3.1.</span> <span class="toc-text">nullSANE(Scanner Access Now Easy)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#XSANE-X-based-interface-for-the-SANE"><span class="toc-number">10.3.2.</span> <span class="toc-text">nullXSANE(X based interface for the SANE)</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#주변-장치-활용"><span class="toc-number">11.</span> <span class="toc-text">null주변 장치 활용</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#프린터-설치-및-설정"><span class="toc-number">11.1.</span> <span class="toc-text">null프린터 설치 및 설정</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#사운드-카드-관련-명령어"><span class="toc-number">12.</span> <span class="toc-text">null사운드 카드 관련 명령어</span></a></li></ol></div></div></div><div id="body-wrap"><div class="post-bg" id="nav" style="background-image: url(https://user-images.githubusercontent.com/37897508/80951191-5abbfd80-8e32-11ea-9fa0-33006336afd6.jpg)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">Beomsu's Blog</a></span><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> Categories</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span></span></div><div id="post-info"><div id="post-title"><div class="posttitle">리눅스 마스터 2급(리눅스 운영 및 관리)</div></div><div id="post-meta"><div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created" title="Created 2020-05-04 08:32:40"><i class="fa fa-calendar" aria-hidden="true"></i> Created 2020-05-04</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated" title="Updated 2020-05-04 18:09:51"><i class="fa fa-history" aria-hidden="true"></i> Updated 2020-05-04</span></time><span class="post-meta__categories"><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%EC%9E%90%EA%B2%A9%EC%A6%9D/">자격증</a><i class="fa fa-angle-right post-meta__separator" aria-hidden="true"></i><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%EC%9E%90%EA%B2%A9%EC%A6%9D/Linux-Master/">Linux Master</a></span></div><div class="meta-secondline"> </div><div class="meta-thirdline"><span class="post-meta-pv-cv"><i class="fa fa-eye post-meta__icon" aria-hidden="true"> </i><span>Post View:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-commentcount"></span></div></div></div></div><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><h2 id="권한-및-그룹-설정"><a class="header-anchor" href="#권한-및-그룹-설정">null</a>권한 및 그룹 설정</h2>
+</style></noscript><meta name="generator" content="Hexo 4.2.0"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/Me.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">Articles</div><div class="length_num">22</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">Tags</div><div class="length_num">7</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">Categories</div><div class="length_num">13</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> Categories</span></a></div></div></div></div><i class="fa fa-arrow-right on" id="toggle-sidebar" aria-hidden="true">     </i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#권한-및-그룹-설정"><span class="toc-number">1.</span> <span class="toc-text">권한 및 그룹 설정</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#소유권-관련-명령어"><span class="toc-number">1.1.</span> <span class="toc-text">소유권 관련 명령어</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#허가권-관련-명령어"><span class="toc-number">1.2.</span> <span class="toc-text">허가권 관련 명령어</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#특수-권한"><span class="toc-number">1.3.</span> <span class="toc-text">특수 권한</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#디스크-쿼터"><span class="toc-number">1.4.</span> <span class="toc-text">디스크 쿼터</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#디스크-쿼터-지정단계"><span class="toc-number">1.4.1.</span> <span class="toc-text">디스크 쿼터 지정단계</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#디스크-쿼터-관련-명령어"><span class="toc-number">1.4.2.</span> <span class="toc-text">디스크 쿼터 관련 명령어</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#파일-시스템의-관리"><span class="toc-number">2.</span> <span class="toc-text">파일 시스템의 관리</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#파일-시스템의-개요와-종류"><span class="toc-number">2.1.</span> <span class="toc-text">파일 시스템의 개요와 종류</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#개요"><span class="toc-number">2.1.1.</span> <span class="toc-text">개요</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#종류"><span class="toc-number">2.1.2.</span> <span class="toc-text">종류</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#리눅스-전용-디스크-기반-파일-시스템"><span class="toc-number">2.1.3.</span> <span class="toc-text">리눅스 전용 디스크 기반 파일 시스템</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#저널링-파일-시스템"><span class="toc-number">2.1.4.</span> <span class="toc-text">저널링 파일 시스템</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#네트워크-파일-시스템"><span class="toc-number">2.1.5.</span> <span class="toc-text">네트워크 파일 시스템</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#기타-지원-가능한-파일-시스템"><span class="toc-number">2.1.6.</span> <span class="toc-text">기타 지원 가능한 파일 시스템</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#관련-명령어"><span class="toc-number">2.1.7.</span> <span class="toc-text">관련 명령어</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#셸-개념-및-종류"><span class="toc-number">3.</span> <span class="toc-text">셸 개념 및 종류</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#개념"><span class="toc-number">3.1.</span> <span class="toc-text">개념</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#종류-2"><span class="toc-number">3.2.</span> <span class="toc-text">종류</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#셸-확인-및-변경"><span class="toc-number">3.3.</span> <span class="toc-text">셸 확인 및 변경</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#로그인-쉘-확인"><span class="toc-number">3.3.1.</span> <span class="toc-text">로그인 쉘 확인</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#쉘-변경"><span class="toc-number">3.3.2.</span> <span class="toc-text">쉘 변경</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#쉘-환경-설정"><span class="toc-number">4.</span> <span class="toc-text">쉘 환경 설정</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#환경-변수와-쉘-변수"><span class="toc-number">4.1.</span> <span class="toc-text">환경 변수와 쉘 변수</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#환경-변수"><span class="toc-number">4.1.1.</span> <span class="toc-text">환경 변수</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#쉘-변수-지역-변수"><span class="toc-number">4.1.2.</span> <span class="toc-text">쉘 변수(지역 변수)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#환경-설정-파일"><span class="toc-number">4.1.3.</span> <span class="toc-text">환경 설정 파일</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#bash-shell의-주요-기능"><span class="toc-number">4.2.</span> <span class="toc-text">bash shell의 주요 기능</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#history-기능"><span class="toc-number">4.2.1.</span> <span class="toc-text">history 기능</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#alias-기능"><span class="toc-number">4.2.2.</span> <span class="toc-text">alias 기능</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#프로세스-개념-및-유형"><span class="toc-number">5.</span> <span class="toc-text">프로세스 개념 및 유형</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#개념-2"><span class="toc-number">5.1.</span> <span class="toc-text">개념</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#프로세스-유형"><span class="toc-number">5.2.</span> <span class="toc-text">프로세스 유형</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#포어그라운드-프로세스"><span class="toc-number">5.2.1.</span> <span class="toc-text">포어그라운드 프로세스</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#백그라운드-프로세스"><span class="toc-number">5.2.2.</span> <span class="toc-text">백그라운드 프로세스</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#fork"><span class="toc-number">5.2.3.</span> <span class="toc-text">fork</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#exec"><span class="toc-number">5.2.4.</span> <span class="toc-text">exec</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#데몬"><span class="toc-number">5.2.5.</span> <span class="toc-text">데몬</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#프로세스-유틸리티"><span class="toc-number">6.</span> <span class="toc-text">프로세스 유틸리티</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#프로세스-관련-명령어"><span class="toc-number">6.1.</span> <span class="toc-text">프로세스 관련 명령어</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#스케줄링과-cron"><span class="toc-number">6.2.</span> <span class="toc-text">스케줄링과 cron</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#에디터-종류"><span class="toc-number">7.</span> <span class="toc-text">에디터 종류</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#개요-2"><span class="toc-number">7.1.</span> <span class="toc-text">개요</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#종류-3"><span class="toc-number">7.2.</span> <span class="toc-text">종류</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#소프트웨어-프로그램-설치"><span class="toc-number">8.</span> <span class="toc-text">소프트웨어 프로그램 설치</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#계열"><span class="toc-number">8.1.</span> <span class="toc-text">계열</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#특징"><span class="toc-number">8.2.</span> <span class="toc-text">특징</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#소스-파일-설치"><span class="toc-number">9.</span> <span class="toc-text">소스 파일 설치</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#파일-아카이브와-압축"><span class="toc-number">9.1.</span> <span class="toc-text">파일 아카이브와 압축</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#파일-아카이브"><span class="toc-number">9.1.1.</span> <span class="toc-text">파일 아카이브</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#파일-압축과-해제"><span class="toc-number">9.1.2.</span> <span class="toc-text">파일 압축과 해제</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#소스-코드-설치"><span class="toc-number">9.2.</span> <span class="toc-text">소스 코드 설치</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#주변-장치-연결-및-설정"><span class="toc-number">10.</span> <span class="toc-text">주변 장치 연결 및 설정</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#프린터-인쇄-시스템-설치-및-설정"><span class="toc-number">10.1.</span> <span class="toc-text">프린터 인쇄 시스템 설치 및 설정</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#사운드-카드-설치-및-설정"><span class="toc-number">10.2.</span> <span class="toc-text">사운드 카드 설치 및 설정</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#OSS-open-sound-system"><span class="toc-number">10.2.1.</span> <span class="toc-text">OSS(open sound system)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ALSA-Advanced-Linux-Sound-Architecture"><span class="toc-number">10.2.2.</span> <span class="toc-text">ALSA(Advanced Linux Sound Architecture)</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#스캐너-설치-및-설정"><span class="toc-number">10.3.</span> <span class="toc-text">스캐너 설치 및 설정</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#SANE-Scanner-Access-Now-Easy"><span class="toc-number">10.3.1.</span> <span class="toc-text">SANE(Scanner Access Now Easy)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#XSANE-X-based-interface-for-the-SANE"><span class="toc-number">10.3.2.</span> <span class="toc-text">XSANE(X based interface for the SANE)</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#주변-장치-활용"><span class="toc-number">11.</span> <span class="toc-text">주변 장치 활용</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#프린터-설치-및-설정"><span class="toc-number">11.1.</span> <span class="toc-text">프린터 설치 및 설정</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#사운드-카드-관련-명령어"><span class="toc-number">12.</span> <span class="toc-text">사운드 카드 관련 명령어</span></a></li></ol></div></div></div><div id="body-wrap"><div class="post-bg" id="nav" style="background-image: url(https://user-images.githubusercontent.com/37897508/80951191-5abbfd80-8e32-11ea-9fa0-33006336afd6.jpg)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">Beomsu's Blog</a></span><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> Categories</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span></span></div><div id="post-info"><div id="post-title"><div class="posttitle">리눅스 마스터 2급(리눅스 운영 및 관리)</div></div><div id="post-meta"><div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created" title="Created 2020-05-04 08:32:40"><i class="fa fa-calendar" aria-hidden="true"></i> Created 2020-05-04</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated" title="Updated 2020-05-04 18:09:51"><i class="fa fa-history" aria-hidden="true"></i> Updated 2020-05-04</span></time><span class="post-meta__categories"><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%EC%9E%90%EA%B2%A9%EC%A6%9D/">자격증</a><i class="fa fa-angle-right post-meta__separator" aria-hidden="true"></i><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%EC%9E%90%EA%B2%A9%EC%A6%9D/Linux-Master/">Linux Master</a></span></div><div class="meta-secondline"> </div><div class="meta-thirdline"><span class="post-meta-pv-cv"><i class="fa fa-eye post-meta__icon" aria-hidden="true"> </i><span>Post View:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-commentcount"></span></div></div></div></div><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><h2 id="권한-및-그룹-설정">권한 및 그룹 설정</h2>
 <ul>
 <li>리눅스 시스템은 모든 파일과 디렉터리에 접근권한과 소유권이 부여됨</li>
 <li>ls -l 명령어로 파일 속성을 볼 수 있음</li>
 </ul>
-<h3 id="소유권-관련-명령어"><a class="header-anchor" href="#소유권-관련-명령어">null</a>소유권 관련 명령어</h3>
+<h3 id="소유권-관련-명령어">소유권 관련 명령어</h3>
 <ul>
 <li>chown
 <ul>
@@ -108,7 +108,7 @@ ga('send', 'pageview');
 </ul>
 </li>
 </ul>
-<h3 id="허가권-관련-명령어"><a class="header-anchor" href="#허가권-관련-명령어">null</a>허가권 관련 명령어</h3>
+<h3 id="허가권-관련-명령어">허가권 관련 명령어</h3>
 <ul>
 <li>
 <p>ls -l 명령어로 파일 유형과 허가권을 알 수 있음</p>
@@ -140,7 +140,7 @@ ga('send', 'pageview');
 </ul>
 </li>
 </ul>
-<h3 id="특수-권한"><a class="header-anchor" href="#특수-권한">null</a>특수 권한</h3>
+<h3 id="특수-권한">특수 권한</h3>
 <ul>
 <li>SetUID, SetGID
 <ul>
@@ -158,7 +158,7 @@ ga('send', 'pageview');
 </ul>
 </li>
 </ul>
-<h3 id="디스크-쿼터"><a class="header-anchor" href="#디스크-쿼터">null</a>디스크 쿼터</h3>
+<h3 id="디스크-쿼터">디스크 쿼터</h3>
 <ul>
 <li>
 <p>파일 시스템마다 사용자나 그룹이 생성할 수 있는 파일의 용량 및 개수를 제한하는 것이다.</p>
@@ -173,7 +173,7 @@ ga('send', 'pageview');
 <p>그룹 단위로도 용량을 제한할 수 있으며 웹호스팅 서비스를 하는 경우에 유용하다</p>
 </li>
 </ul>
-<h4 id="디스크-쿼터-지정단계"><a class="header-anchor" href="#디스크-쿼터-지정단계">null</a>디스크 쿼터 지정단계</h4>
+<h4 id="디스크-쿼터-지정단계">디스크 쿼터 지정단계</h4>
 <ol>
 <li>파일 /etc/fstab에 디스크 쿼터 관련 설정</li>
 <li>재마운팅 실행 후 확인</li>
@@ -182,7 +182,7 @@ ga('send', 'pageview');
 <li>사용자별 쿼터 지정</li>
 <li>쿼터 현재 상태 점검</li>
 </ol>
-<h4 id="디스크-쿼터-관련-명령어"><a class="header-anchor" href="#디스크-쿼터-관련-명령어">null</a>디스크 쿼터 관련 명령어</h4>
+<h4 id="디스크-쿼터-관련-명령어">디스크 쿼터 관련 명령어</h4>
 <ul>
 <li>quotaoff
 <ul>
@@ -205,17 +205,17 @@ ga('send', 'pageview');
 </ul>
 </li>
 </ul>
-<h2 id="파일-시스템의-관리"><a class="header-anchor" href="#파일-시스템의-관리">null</a>파일 시스템의 관리</h2>
-<h3 id="파일-시스템의-개요와-종류"><a class="header-anchor" href="#파일-시스템의-개요와-종류">null</a>파일 시스템의 개요와 종류</h3>
-<h4 id="개요"><a class="header-anchor" href="#개요">null</a>개요</h4>
+<h2 id="파일-시스템의-관리">파일 시스템의 관리</h2>
+<h3 id="파일-시스템의-개요와-종류">파일 시스템의 개요와 종류</h3>
+<h4 id="개요">개요</h4>
 <ul>
 <li>운영체제가 파일을 시스템의 디스크상에 구성하는 방식</li>
 <li>컴퓨터에서 파일이나 자료를 쉽게 발견 및 접근할 수 있도록 보관 또는 조직하는 체제이다</li>
 <li>하드디스크나 cd-rom 과 같은 물리적 저장소를 관리한다</li>
 <li>파일 서버상의 자료로의 접근을 제공하는 방식과 가상의 형태로서 접근 수단만이 존재하는 방식도 파일 시스템의 범위에 포함된다</li>
 </ul>
-<h4 id="종류"><a class="header-anchor" href="#종류">null</a>종류</h4>
-<h4 id="리눅스-전용-디스크-기반-파일-시스템"><a class="header-anchor" href="#리눅스-전용-디스크-기반-파일-시스템">null</a>리눅스 전용 디스크 기반 파일 시스템</h4>
+<h4 id="종류">종류</h4>
+<h4 id="리눅스-전용-디스크-기반-파일-시스템">리눅스 전용 디스크 기반 파일 시스템</h4>
 <ul>
 <li>
 <p>Extended File System</p>
@@ -251,7 +251,7 @@ ga('send', 'pageview');
 </ul>
 </li>
 </ul>
-<h4 id="저널링-파일-시스템"><a class="header-anchor" href="#저널링-파일-시스템">null</a>저널링 파일 시스템</h4>
+<h4 id="저널링-파일-시스템">저널링 파일 시스템</h4>
 <ul>
 <li>jfs
 <ul>
@@ -276,7 +276,7 @@ ga('send', 'pageview');
 </ul>
 </li>
 </ul>
-<h4 id="네트워크-파일-시스템"><a class="header-anchor" href="#네트워크-파일-시스템">null</a>네트워크 파일 시스템</h4>
+<h4 id="네트워크-파일-시스템">네트워크 파일 시스템</h4>
 <ul>
 <li>
 <p>SMB</p>
@@ -308,7 +308,7 @@ ga('send', 'pageview');
 </ul>
 </li>
 </ul>
-<h4 id="기타-지원-가능한-파일-시스템"><a class="header-anchor" href="#기타-지원-가능한-파일-시스템">null</a>기타 지원 가능한 파일 시스템</h4>
+<h4 id="기타-지원-가능한-파일-시스템">기타 지원 가능한 파일 시스템</h4>
 <ul>
 <li>FAT
 <ul>
@@ -359,7 +359,7 @@ ga('send', 'pageview');
 </ul>
 </li>
 </ul>
-<h4 id="관련-명령어"><a class="header-anchor" href="#관련-명령어">null</a>관련 명령어</h4>
+<h4 id="관련-명령어">관련 명령어</h4>
 <ul>
 <li>mount/unmount
 <ul>
@@ -414,8 +414,8 @@ ga('send', 'pageview');
 </ul>
 </li>
 </ul>
-<h2 id="셸-개념-및-종류"><a class="header-anchor" href="#셸-개념-및-종류">null</a>셸 개념 및 종류</h2>
-<h3 id="개념"><a class="header-anchor" href="#개념">null</a>개념</h3>
+<h2 id="셸-개념-및-종류">셸 개념 및 종류</h2>
+<h3 id="개념">개념</h3>
 <ul>
 <li>명령어 해석기</li>
 <li>로그인 할 때 실행되어 사용자 별로 사용 환경 설정을 가능하게 함</li>
@@ -423,72 +423,72 @@ ga('send', 'pageview');
 <li>입출력 방향 재지정과 파이프 기능 제공</li>
 <li>포어/백그라운드 프로세스를 실행한다</li>
 </ul>
-<h3 id="종류-v2"><a class="header-anchor" href="#종류-v2">null</a>종류</h3>
+<h3 id="종류-2">종류</h3>
 <ul>
 <li>본 셸계열과 C셸 계열로 나뉜다</li>
 <li>사용자 프롬프트가 $ 이면 본 셸 계열, % 이면 C 셸 계열을 사용하고 있다는 것이다</li>
 <li>대부분의 셸은 본 셸 계열의 기능을 포함하여 확대 발전한 형태이다</li>
 <li>C셸은 본 셸의 모든 기능과 명령어 히스토리 별명 작업 제어 기능을 추가로 가지고 있다.</li>
 </ul>
-<h3 id="셸-확인-및-변경"><a class="header-anchor" href="#셸-확인-및-변경">null</a>셸 확인 및 변경</h3>
-<h4 id="로그인-쉘-확인"><a class="header-anchor" href="#로그인-쉘-확인">null</a>로그인 쉘 확인</h4>
+<h3 id="셸-확인-및-변경">셸 확인 및 변경</h3>
+<h4 id="로그인-쉘-확인">로그인 쉘 확인</h4>
 <ul>
 <li>파일 /etc/shell 에서 사용할 수 있는 셸들을 확인할 수 있다.</li>
 <li>파일 /etc/passwd 파일에서 계쩡마다 할당된 셸을 확인 할 수 있다.</li>
 <li>명령어 echo $SHELL은  현재 로그인한 사용자가 사용하고 있는 쉘을 확인할 수 있다.</li>
 </ul>
-<h4 id="쉘-변경"><a class="header-anchor" href="#쉘-변경">null</a>쉘 변경</h4>
+<h4 id="쉘-변경">쉘 변경</h4>
 <ul>
 <li>로그인 쉘 변경은 반영구적인 쉘 변경 방법으로 관리자가 쉘 변경 후 다음 변경을 하기전까지 지정된 쉘을 사용한다</li>
 <li>명령어 chsh: 일반 사용자 환경에서 쉘 변경시 사용한다</li>
 <li>명령어 usermod: 관리자 환경에서 지정된 계정자의 정보를 변경할 때 사용하는 명령어이다</li>
 </ul>
-<h2 id="쉘-환경-설정"><a class="header-anchor" href="#쉘-환경-설정">null</a>쉘 환경 설정</h2>
-<h3 id="환경-변수와-쉘-변수"><a class="header-anchor" href="#환경-변수와-쉘-변수">null</a>환경 변수와 쉘 변수</h3>
+<h2 id="쉘-환경-설정">쉘 환경 설정</h2>
+<h3 id="환경-변수와-쉘-변수">환경 변수와 쉘 변수</h3>
 <ul>
 <li>근데 이거 구분이 당연한게 지연변수와 전역변수 뜻을 알면 그냥 그렇군 정도</li>
 </ul>
-<h4 id="환경-변수"><a class="header-anchor" href="#환경-변수">null</a>환경 변수</h4>
+<h4 id="환경-변수">환경 변수</h4>
 <ul>
 <li>전체 쉘에서 사용 가능한 전역 변수</li>
 <li>서브 쉘에 기능 상속 가능</li>
 <li>환경 변수 확인 명령 env</li>
 </ul>
-<h4 id="쉘-변수-지역-변수"><a class="header-anchor" href="#쉘-변수-지역-변수">null</a>쉘 변수(지역 변수)</h4>
+<h4 id="쉘-변수-지역-변수">쉘 변수(지역 변수)</h4>
 <ul>
 <li>현재 로그인한 쉘에서만 사용 가능한 지역 변수</li>
 <li>서브 쉘에 기능 상속 불가능</li>
 <li>쉘 변수 확인 명령어 set</li>
 </ul>
-<h4 id="환경-설정-파일"><a class="header-anchor" href="#환경-설정-파일">null</a>환경 설정 파일</h4>
+<h4 id="환경-설정-파일">환경 설정 파일</h4>
 <ul>
 <li>쉘 시작 시 자동으로 실행되는 고유의 시작 파일이 있다.
 <ul>
 <li>이 파일은 사용자 운영환경을 설정한다</li>
 </ul>
 </li>
-<li>배쉬셀의 시작 파일은 /etc/profile, /etc/bashrc, <sub>/.bash_profile,</sub>/.bashrc 이다.</li>
+<li>배쉬셀의 시작 파일은 /etc/profile, /etc/bashrc, ~/.bash_profile,~/.bashrc 이다.</li>
 <li>쉘 파일은 전역적 파일과 지역적 파일로 나뉜다</li>
 <li>파일 /etc/profile.d는 몇몇 응용 프로그램들이 시작시 자동 실행할 스크립트 파일 경로를 넣어둔다.</li>
 </ul>
-<h3 id="bash-shell의-주요-기능"><a class="header-anchor" href="#bash-shell의-주요-기능">null</a>bash shell의 주요 기능</h3>
-<h4 id="history-기능"><a class="header-anchor" href="#history-기능">null</a>history 기능</h4>
+<h3 id="bash-shell의-주요-기능">bash shell의 주요 기능</h3>
+<h4 id="history-기능">history 기능</h4>
 <ul>
 <li>일정 개수 이상 사용했던 명령어를 .bash_history에 저장해 두고 다시 불러서 사용할 수 있게 하는 기능이다.</li>
 <li>대부분의 쉘은 이전에 입력했던 명령어를 반복하거 약간 변형하여 다시 사용할 수 있도록 하는 기능이다</li>
 </ul>
-<h4 id="alias-기능"><a class="header-anchor" href="#alias-기능">null</a>alias 기능</h4>
+<h4 id="alias-기능">alias 기능</h4>
 <ul>
 <li>자주 사용하는 명령어를 특정 문자로 입력해 두고 간편하게 사용할 수 있게 하는 기능이다.</li>
 </ul>
-<h2 id="프로세스-개념-및-유형"><a class="header-anchor" href="#프로세스-개념-및-유형">null</a>프로세스 개념 및 유형</h2>
-<h3 id="개념-v2"><a class="header-anchor" href="#개념-v2">null</a>개념</h3>
+<h2 id="프로세스-개념-및-유형">프로세스 개념 및 유형</h2>
+<h3 id="개념-2">개념</h3>
 <ul>
 <li>프로세스는 cpu와 메모리를 할당받아 실행 중인 프로그램이다</li>
 <li>프로세스들마다 고유의 프로세스 ID를 할당받는다</li>
 </ul>
-<h3 id="프로세스-유형"><a class="header-anchor" href="#프로세스-유형">null</a>프로세스 유형</h3>
-<h4 id="포어그라운드-프로세스"><a class="header-anchor" href="#포어그라운드-프로세스">null</a>포어그라운드 프로세스</h4>
+<h3 id="프로세스-유형">프로세스 유형</h3>
+<h4 id="포어그라운드-프로세스">포어그라운드 프로세스</h4>
 <ul>
 <li>사용자와 상호작용하는 프로세스</li>
 <li>터미널에 직접 연결되어 입출력을 주고 받는 프로세스</li>
@@ -496,35 +496,35 @@ ga('send', 'pageview');
 <li>화면에서 실행되는 것이 보이는 프로세스</li>
 <li>응용프로그램이나 명령어 등</li>
 </ul>
-<h4 id="백그라운드-프로세스"><a class="header-anchor" href="#백그라운드-프로세스">null</a>백그라운드 프로세스</h4>
+<h4 id="백그라운드-프로세스">백그라운드 프로세스</h4>
 <ul>
 <li>사용자와 직접적인 대화를 하지 않고 뒤에서 실행되는 프로세스</li>
 <li>사용자의 입력에 관계없이 실행되는 프로세스</li>
 <li>실행은 되지만 화면에 나타나지 않고 실행되는 프로세스</li>
 <li>시스템 프로그램, 데몬 등</li>
 </ul>
-<h4 id="fork"><a class="header-anchor" href="#fork">null</a>fork</h4>
+<h4 id="fork">fork</h4>
 <ul>
 <li>새로운 프로세스를 만들 때 기존 픞로세스를 복제하는 방식을 사용</li>
 <li>새로운 프로세스를 위한 메모리르 할당한다</li>
 <li>새로 생성된 프로세스는 원래의 프로세스와 똑같은 코드를 가지고 있다.</li>
 <li>원본 프로세스를 부모 프로세스라 부르고 새로 복제된 프로세스를 자식 프로세스라고 부른다</li>
 </ul>
-<h4 id="exec"><a class="header-anchor" href="#exec">null</a>exec</h4>
+<h4 id="exec">exec</h4>
 <ul>
 <li>호출하는 프로세스가 새로운 프로세스로 변경되는 방식</li>
 <li>새로운 프로세스를 위한 메모리를 할당하지 않는다</li>
 <li>호출한 프로세스의 메모리에 새로운 프로세스 코드를 덮어씌워버린다</li>
 </ul>
-<h4 id="데몬"><a class="header-anchor" href="#데몬">null</a>데몬</h4>
+<h4 id="데몬">데몬</h4>
 <ul>
 <li>리눅스 시스템이 부팅 시 자동으로 실행되는 백그라운드 프로세스</li>
 <li>메모리에 상주하면서 사용자의 특정 요청이 오면 즉시 실행되는 대기 중이 서버프로세스이다</li>
 <li>주기적으로 지속적인 서비스 요청을 처리하기 위해 사용된다</li>
 <li>사용자들은 이 프로세스들을 볼 수 있는 권한이 없다.</li>
 </ul>
-<h2 id="프로세스-유틸리티"><a class="header-anchor" href="#프로세스-유틸리티">null</a>프로세스 유틸리티</h2>
-<h3 id="프로세스-관련-명령어"><a class="header-anchor" href="#프로세스-관련-명령어">null</a>프로세스 관련 명령어</h3>
+<h2 id="프로세스-유틸리티">프로세스 유틸리티</h2>
+<h3 id="프로세스-관련-명령어">프로세스 관련 명령어</h3>
 <ul>
 <li>ps
 <ul>
@@ -596,20 +596,20 @@ ga('send', 'pageview');
 </ul>
 </li>
 </ul>
-<h3 id="스케줄링과-cron"><a class="header-anchor" href="#스케줄링과-cron">null</a>스케줄링과 cron</h3>
+<h3 id="스케줄링과-cron">스케줄링과 cron</h3>
 <ul>
 <li>주기적으로 반복되는 일은 자동적으로 실행 될 수 있도록 설정한다/</li>
 <li>스케줄링 데몬은 cround이며 관련 파일은 /etc/crontab이다</li>
 <li>파일 /etc/crontab/은 7개의 필드로 구성되어 있다.</li>
 <li>명령어 crontab은 사용자가 주기적인 작업을 등록할 수 있게 한다</li>
 </ul>
-<h2 id="에디터-종류"><a class="header-anchor" href="#에디터-종류">null</a>에디터 종류</h2>
-<h3 id="개요-v2"><a class="header-anchor" href="#개요-v2">null</a>개요</h3>
+<h2 id="에디터-종류">에디터 종류</h2>
+<h3 id="개요-2">개요</h3>
 <ul>
 <li>리눅스에서 지원하는 편집기로는 vi, emacs, pico, gedit, xedit 등이 있다.</li>
 <li>리눅스 편집기는 편집기를 통해 파일을 수정한다.</li>
 </ul>
-<h3 id="종류-v3"><a class="header-anchor" href="#종류-v3">null</a>종류</h3>
+<h3 id="종류-3">종류</h3>
 <ul>
 <li>pico
 <ul>
@@ -657,8 +657,8 @@ ga('send', 'pageview');
 </ul>
 </li>
 </ul>
-<h2 id="소프트웨어-프로그램-설치"><a class="header-anchor" href="#소프트웨어-프로그램-설치">null</a>소프트웨어 프로그램 설치</h2>
-<h3 id="계열"><a class="header-anchor" href="#계열">null</a>계열</h3>
+<h2 id="소프트웨어-프로그램-설치">소프트웨어 프로그램 설치</h2>
+<h3 id="계열">계열</h3>
 <ul>
 <li>데미안 계열
 <ul>
@@ -673,7 +673,7 @@ ga('send', 'pageview');
 </ul>
 </li>
 </ul>
-<h3 id="특징"><a class="header-anchor" href="#특징">null</a>특징</h3>
+<h3 id="특징">특징</h3>
 <ul>
 <li>rpm
 <ul>
@@ -707,20 +707,20 @@ ga('send', 'pageview');
 </ul>
 </li>
 </ul>
-<h2 id="소스-파일-설치"><a class="header-anchor" href="#소스-파일-설치">null</a>소스 파일 설치</h2>
-<h3 id="파일-아카이브와-압축"><a class="header-anchor" href="#파일-아카이브와-압축">null</a>파일 아카이브와 압축</h3>
-<h4 id="파일-아카이브"><a class="header-anchor" href="#파일-아카이브">null</a>파일 아카이브</h4>
+<h2 id="소스-파일-설치">소스 파일 설치</h2>
+<h3 id="파일-아카이브와-압축">파일 아카이브와 압축</h3>
+<h4 id="파일-아카이브">파일 아카이브</h4>
 <ul>
 <li>아카이브는 다수 개의 파일이나 디렉터리를 하나의 파일로 묶는 것이다</li>
 <li>아카이브 파일은 다른 시스템으로 다수 개의 파일을 한 번에 전송하거나 파일 백업용으로 사용한다</li>
 </ul>
-<h4 id="파일-압축과-해제"><a class="header-anchor" href="#파일-압축과-해제">null</a>파일 압축과 해제</h4>
+<h4 id="파일-압축과-해제">파일 압축과 해제</h4>
 <ul>
 <li>대표적인 파일 압축 명은 compress, gzip, bzip2, xz가 있다.</li>
 <li>일반적으로 많이 사용되는 압축 명령어는 gzip과 bzip2이다</li>
 <li>압축률이 가장 낮은 것은 명령어 compress이며, 압축률이 가장 높은 것은 명령어 xz이다</li>
 </ul>
-<h3 id="소스-코드-설치"><a class="header-anchor" href="#소스-코드-설치">null</a>소스 코드 설치</h3>
+<h3 id="소스-코드-설치">소스 코드 설치</h3>
 <ul>
 <li>소스 코드를 압축 해제 후 컴파일 순서에 따라 프로그램을 설치한다</li>
 <li>컴파일 순서는 설치 파일의 환경설정, 컴파일, 파일 설치이다</li>
@@ -730,8 +730,8 @@ ga('send', 'pageview');
 <li>컴파일 : make makefile을 기반으로 소스 파일을 컴파일</li>
 <li>파일 설치 : make install 컴파일 된 실행 파일을 지정된 속성으로 지정된 디렉터리에 설치</li>
 </ol>
-<h2 id="주변-장치-연결-및-설정"><a class="header-anchor" href="#주변-장치-연결-및-설정">null</a>주변 장치 연결 및 설정</h2>
-<h3 id="프린터-인쇄-시스템-설치-및-설정"><a class="header-anchor" href="#프린터-인쇄-시스템-설치-및-설정">null</a>프린터 인쇄 시스템 설치 및 설정</h3>
+<h2 id="주변-장치-연결-및-설정">주변 장치 연결 및 설정</h2>
+<h3 id="프린터-인쇄-시스템-설치-및-설정">프린터 인쇄 시스템 설치 및 설정</h3>
 <ul>
 <li>LPRng
 <ul>
@@ -760,14 +760,14 @@ ga('send', 'pageview');
 </ul>
 </li>
 </ul>
-<h3 id="사운드-카드-설치-및-설정"><a class="header-anchor" href="#사운드-카드-설치-및-설정">null</a>사운드 카드 설치 및 설정</h3>
-<h4 id="OSS-open-sound-system"><a class="header-anchor" href="#OSS-open-sound-system">null</a>OSS(open sound system)</h4>
+<h3 id="사운드-카드-설치-및-설정">사운드 카드 설치 및 설정</h3>
+<h4 id="OSS-open-sound-system">OSS(open sound system)</h4>
 <ul>
 <li>리눅스 및 유닉스 계열 운영체제에서 사운드를 만들고 캡쳐하는 인터페이스이다</li>
 <li>표준 유닉스 장치 시스템 콜에 기반을 둔 것이다</li>
 <li>현재 리눅스 커뮤니티에서는 ALSA로 대체 되었다.</li>
 </ul>
-<h4 id="ALSA-Advanced-Linux-Sound-Architecture"><a class="header-anchor" href="#ALSA-Advanced-Linux-Sound-Architecture">null</a>ALSA(Advanced Linux Sound Architecture)</h4>
+<h4 id="ALSA-Advanced-Linux-Sound-Architecture">ALSA(Advanced Linux Sound Architecture)</h4>
 <ul>
 <li>사운드 카드용 장치 드라이버를 제공하기 위한 리눅스 커널 요소</li>
 <li>GPL 및 LGPL 라이선스 기반으로 배포 되고 있다.</li>
@@ -775,21 +775,21 @@ ga('send', 'pageview');
 <li>OSS의 지원을 받아서 하드웨어 기반 미디합성, 다중 채널 하드웨어 믹싱, 전이중 통신, 다중 프로세서와의 조화, 스레드 안정장치 드라이브 등의 기능을 지원한다</li>
 <li>연결 설정 파일은 /etc/asound.state이다</li>
 </ul>
-<h3 id="스캐너-설치-및-설정"><a class="header-anchor" href="#스캐너-설치-및-설정">null</a>스캐너 설치 및 설정</h3>
-<h4 id="SANE-Scanner-Access-Now-Easy"><a class="header-anchor" href="#SANE-Scanner-Access-Now-Easy">null</a>SANE(Scanner Access Now Easy)</h4>
+<h3 id="스캐너-설치-및-설정">스캐너 설치 및 설정</h3>
+<h4 id="SANE-Scanner-Access-Now-Easy">SANE(Scanner Access Now Easy)</h4>
 <ul>
 <li>평판 스캐너, 핸드 스캐너, 비디오 캠 등 이미지 관련 하드웨어를 제어하는 api이다.</li>
 <li>GPL 라이선스 리눅스 및 유닉스 계열, OS2, windows 지원한다</li>
 </ul>
-<h4 id="XSANE-X-based-interface-for-the-SANE"><a class="header-anchor" href="#XSANE-X-based-interface-for-the-SANE">null</a>XSANE(X based interface for the SANE)</h4>
+<h4 id="XSANE-X-based-interface-for-the-SANE">XSANE(X based interface for the SANE)</h4>
 <ul>
 <li>SANE 스캐너 인터페이스를 이용하여 X-windows 기반의 스캐너 프로그램이다</li>
 <li>스캐너, 디지털 카메라, 디지털 캠 등 다양한 장치에서 사용이 가능하다</li>
 <li>스캔 작업뿐만 아니라 캡쳐한 이미지에 수정 작업을 할 수 있다.</li>
 <li>GPL 라이선스, 리눅스 및 유닉스 계열, OS2, Windows도 지원한다</li>
 </ul>
-<h2 id="주변-장치-활용"><a class="header-anchor" href="#주변-장치-활용">null</a>주변 장치 활용</h2>
-<h3 id="프린터-설치-및-설정"><a class="header-anchor" href="#프린터-설치-및-설정">null</a>프린터 설치 및 설정</h3>
+<h2 id="주변-장치-활용">주변 장치 활용</h2>
+<h3 id="프린터-설치-및-설정">프린터 설치 및 설정</h3>
 <ul>
 <li>BSD 계열 프린터 명령어들
 <ul>
@@ -837,7 +837,7 @@ ga('send', 'pageview');
 </ul>
 </li>
 </ul>
-<h2 id="사운드-카드-관련-명령어"><a class="header-anchor" href="#사운드-카드-관련-명령어">null</a>사운드 카드 관련 명령어</h2>
+<h2 id="사운드-카드-관련-명령어">사운드 카드 관련 명령어</h2>
 <ul>
 <li>alsactl
 <ul>
@@ -855,4 +855,4 @@ ga('send', 'pageview');
 </ul>
 </li>
 </ul>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;">inode란 파일에 대한 정보를 가지고 있는 메타 데이터이다</span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;">SMB 네트워크 프로토콜을 재구성한 자유 소프트웨어</span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div></div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">밤수</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://goberomsu.github.io/2020/05/04/Linux_operation/">https://goberomsu.github.io/2020/05/04/Linux_operation/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/linux/">linux</a></div><div class="post_share"><div class="social-share" data-image="https://user-images.githubusercontent.com/37897508/80951191-5abbfd80-8e32-11ea-9fa0-33006336afd6.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><nav class="pagination_post" id="pagination"><div class="prev-post pull_left"><a href="/2020/05/04/CrusadeSetUp/"><img class="prev_cover" src="/img/crusade_1.png" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">Previous Post</div><div class="prev_info">Crusade 세션 setup</div></div></a></div><div class="next-post pull_right"><a href="/2020/05/03/Linux_kali/"><img class="next_cover" src="/img/kali.PNG" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">칼리 리눅스 설치 및 초기 세팅</div></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fa fa-fw fa-thumbs-up" aria-hidden="true"></i><span> Recommend</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/2020/04/30/Linux_general/" title="리눅스 마스터 일반"><img class="relatedPosts_cover" src="https://user-images.githubusercontent.com/37897508/80951191-5abbfd80-8e32-11ea-9fa0-33006336afd6.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-04-30</div><div class="relatedPosts_title">리눅스 마스터 일반</div></div></a></div><div class="relatedPosts_item"><a href="/2020/05/03/Linux_kali/" title="칼리 리눅스 설치 및 초기 세팅"><img class="relatedPosts_cover" src="/img/kali.PNG"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-05-03</div><div class="relatedPosts_title">칼리 리눅스 설치 및 초기 세팅</div></div></a></div></div><div class="clear_both"></div></div></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By 밤수</div><div class="framework-info"><span>Driven </span><a href="https://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-plus" id="font_plus" title="Increase font size"></i><i class="fa fa-minus" id="font_minus" title="Decrease font size"></i><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="Traditional Chinese and Simplified Chinese Conversion" target="_self">繁</a><i class="darkmode fa fa-moon-o" id="darkmode" title="Dark Mode"></i></div><div id="rightside-config-show"><div id="rightside_config" title="Setting"><i class="fa fa-cog" aria-hidden="true"></i></div><i class="fa fa-list-ul close" id="mobile-toc-button" title="Table of Contents" aria-hidden="true"></i><i class="fa fa-arrow-up" id="go-up" title="Back to top" aria-hidden="true"></i></div></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script></body></html>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;">inode란 파일에 대한 정보를 가지고 있는 메타 데이터이다</span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;">SMB 네트워크 프로토콜을 재구성한 자유 소프트웨어</span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div></div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">밤수</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://goberomsu.github.io/2020/05/04/Linux_operation/">https://goberomsu.github.io/2020/05/04/Linux_operation/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/linux/">linux</a></div><div class="post_share"><div class="social-share" data-image="https://user-images.githubusercontent.com/37897508/80951191-5abbfd80-8e32-11ea-9fa0-33006336afd6.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><nav class="pagination_post" id="pagination"><div class="prev-post pull_left"><a href="/2020/05/04/CrusadeSetUp/"><img class="prev_cover" src="/img/crusade_1.png" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">Previous Post</div><div class="prev_info">Crusade 세션 setup</div></div></a></div><div class="next-post pull_right"><a href="/2020/05/03/Linux_kali/"><img class="next_cover" src="/img/kali.PNG" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">칼리 리눅스 설치 및 초기 세팅</div></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fa fa-fw fa-thumbs-up" aria-hidden="true"></i><span> Recommend</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/2020/05/03/Linux_kali/" title="칼리 리눅스 설치 및 초기 세팅"><img class="relatedPosts_cover" src="/img/kali.PNG"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-05-03</div><div class="relatedPosts_title">칼리 리눅스 설치 및 초기 세팅</div></div></a></div><div class="relatedPosts_item"><a href="/2020/04/30/Linux_general/" title="리눅스 마스터 일반"><img class="relatedPosts_cover" src="https://user-images.githubusercontent.com/37897508/80951191-5abbfd80-8e32-11ea-9fa0-33006336afd6.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-04-30</div><div class="relatedPosts_title">리눅스 마스터 일반</div></div></a></div></div><div class="clear_both"></div></div></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By 밤수</div><div class="framework-info"><span>Driven </span><a href="https://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-plus" id="font_plus" title="Increase font size"></i><i class="fa fa-minus" id="font_minus" title="Decrease font size"></i><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="Traditional Chinese and Simplified Chinese Conversion" target="_self">繁</a><i class="darkmode fa fa-moon-o" id="darkmode" title="Dark Mode"></i></div><div id="rightside-config-show"><div id="rightside_config" title="Setting"><i class="fa fa-cog" aria-hidden="true"></i></div><i class="fa fa-list-ul close" id="mobile-toc-button" title="Table of Contents" aria-hidden="true"></i><i class="fa fa-arrow-up" id="go-up" title="Back to top" aria-hidden="true"></i></div></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script></body></html>
