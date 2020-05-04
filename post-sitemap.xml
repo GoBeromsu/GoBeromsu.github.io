@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/2020/05/03/GoHexo/</loc>
+        <lastmod>2020-05-04T12:00:00.020Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/2020/04/30/Mysoundstudy/</loc>
         <lastmod>2020-05-04T10:14:51.214Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -58,14 +66,6 @@
     <url>
         <loc>https://goberomsu.github.io/2020/04/17/Jekyll_blogsetup/</loc>
         <lastmod>2020-05-04T09:11:44.585Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/05/03/GoHexo/</loc>
-        <lastmod>2020-05-04T09:10:47.891Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

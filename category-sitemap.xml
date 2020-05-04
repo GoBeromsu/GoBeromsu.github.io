@@ -8,6 +8,13 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/categories/Hexo/</loc>
+        <lastmod>2020-05-04T12:00:00.020Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/categories/Sound/</loc>
         <lastmod>2020-05-04T10:14:51.214Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -59,13 +66,6 @@
     <url>
         <loc>https://goberomsu.github.io/categories/%25EC%259E%2590%25EA%25B2%25A9%25EC%25A6%259D/Linux-Master/</loc>
         <lastmod>2020-05-04T09:13:06.819Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/Hexo/</loc>
-        <lastmod>2020-05-04T09:10:47.891Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
