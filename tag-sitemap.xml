@@ -3,6 +3,13 @@
 
 
     <url>
+        <loc>https://goberomsu.github.io/tags/Blog/</loc>
+        <lastmod>2020-05-04T09:11:51.343Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/tags/NodeJS/</loc>
         <lastmod>2020-05-04T09:10:47.891Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -12,13 +19,6 @@
     <url>
         <loc>https://goberomsu.github.io/tags/linux/</loc>
         <lastmod>2020-05-04T09:09:56.511Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/tags/Blog/</loc>
-        <lastmod>2020-05-04T09:06:54.491Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
