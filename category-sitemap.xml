@@ -8,6 +8,20 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/categories/%25EC%259E%2590%25EA%25B2%25A9%25EC%25A6%259D/Linux-Master/</loc>
+        <lastmod>2020-05-05T01:07:15.319Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/categories/%25EC%259E%2590%25EA%25B2%25A9%25EC%25A6%259D/</loc>
+        <lastmod>2020-05-05T01:07:15.319Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/categories/Sound/</loc>
         <lastmod>2020-05-04T15:58:50.906Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -50,13 +64,6 @@
     </url>
 
     <url>
-        <loc>https://goberomsu.github.io/categories/%25EC%259E%2590%25EA%25B2%25A9%25EC%25A6%259D/</loc>
-        <lastmod>2020-05-04T09:24:38.220Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://goberomsu.github.io/categories/FrontEnd/</loc>
         <lastmod>2020-05-04T09:23:04.795Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -73,13 +80,6 @@
     <url>
         <loc>https://goberomsu.github.io/categories/GitHub/</loc>
         <lastmod>2020-05-04T09:17:31.182Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/%25EC%259E%2590%25EA%25B2%25A9%25EC%25A6%259D/Linux-Master/</loc>
-        <lastmod>2020-05-04T09:13:06.819Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
