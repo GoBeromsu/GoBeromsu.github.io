@@ -8,6 +8,13 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/categories/Sound/</loc>
+        <lastmod>2020-05-07T07:36:41.356Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/categories/infosec119/</loc>
         <lastmod>2020-05-06T16:04:27.515Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -31,13 +38,6 @@
     <url>
         <loc>https://goberomsu.github.io/categories/%25EC%259E%2590%25EA%25B2%25A9%25EC%25A6%259D/</loc>
         <lastmod>2020-05-05T02:18:11.621Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/Sound/</loc>
-        <lastmod>2020-05-04T15:58:50.906Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
