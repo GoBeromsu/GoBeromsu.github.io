@@ -8,8 +8,32 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/2020/05/09/javascript%EA%B1%B4%EB%93%A4%EC%97%AC%EB%B3%B4%EA%B8%B0/</loc>
+        <lastmod>2020-05-08T16:04:06.018Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/05/06/Webcrawler/</loc>
+        <lastmod>2020-05-08T15:25:06.677Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/04/22/Html%26Css/</loc>
+        <lastmod>2020-05-08T15:20:35.738Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/2020/05/08/BeFriendWithLinux-2/</loc>
-        <lastmod>2020-05-08T15:11:30.173Z</lastmod>
+        <lastmod>2020-05-08T15:16:47.312Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -56,14 +80,6 @@
     </url>
 
     <url>
-        <loc>https://goberomsu.github.io/2020/05/06/Webcrawler/</loc>
-        <lastmod>2020-05-06T16:04:27.515Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://goberomsu.github.io/2020/05/03/Linux_kali/</loc>
         <lastmod>2020-05-06T13:15:28.815Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -98,14 +114,6 @@
     <url>
         <loc>https://goberomsu.github.io/2020/04/05/DataModeling/</loc>
         <lastmod>2020-05-04T09:24:38.220Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/04/22/Html%26Css/</loc>
-        <lastmod>2020-05-04T09:23:04.795Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
