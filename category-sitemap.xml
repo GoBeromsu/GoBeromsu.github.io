@@ -8,6 +8,13 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/categories/%25EB%25A6%25AC%25EB%2588%2585%25EC%258A%25A4%25EB%259E%2591-%25EC%25A7%25B1%25EC%25B9%259C-%25EB%25A8%25B9%25EA%25B8%25B0/</loc>
+        <lastmod>2020-05-09T03:29:32.803Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/categories/Blog/Hexo/</loc>
         <lastmod>2020-05-09T03:27:46.328Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -45,13 +52,6 @@
     <url>
         <loc>https://goberomsu.github.io/categories/%25EB%25A6%25AC%25EB%2588%2585%25EC%258A%25A4%25EB%259E%2591-%25EC%25A7%25B1%25EC%25B9%259C-%25EB%25A8%25B9%25EA%25B8%25B0-Hacking/</loc>
         <lastmod>2020-05-08T15:16:47.312Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/%25EB%25A6%25AC%25EB%2588%2585%25EC%258A%25A4%25EB%259E%2591-%25EC%25A7%25B1%25EC%25B9%259C-%25EB%25A8%25B9%25EA%25B8%25B0/</loc>
-        <lastmod>2020-05-08T06:49:26.788Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
