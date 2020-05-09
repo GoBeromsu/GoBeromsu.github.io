@@ -8,8 +8,16 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/2020/05/09/javascript%EA%B1%B4%EB%93%A4%EC%97%AC%EB%B3%B4%EA%B8%B0/</loc>
+        <lastmod>2020-05-09T08:30:34.738Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/2020/05/09/javascript%EA%B8%B0%EB%B3%B8%EB%AC%B8%EB%B2%95/</loc>
-        <lastmod>2020-05-09T08:17:07.016Z</lastmod>
+        <lastmod>2020-05-09T08:26:28.766Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -162,14 +170,6 @@
     <url>
         <loc>https://goberomsu.github.io/2020/05/04/CrusadeSetUp/</loc>
         <lastmod>2020-05-09T07:16:29.351Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/05/09/javascript%EA%B1%B4%EB%93%A4%EC%97%AC%EB%B3%B4%EA%B8%B0/</loc>
-        <lastmod>2020-05-09T07:16:09.600Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
