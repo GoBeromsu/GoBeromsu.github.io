@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/2020/05/09/BeFriendWithLinux-3/</loc>
+        <lastmod>2020-05-10T04:54:24.354Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/2020/05/09/javascript%EA%B8%B0%EB%B3%B8%EB%AC%B8%EB%B2%95/</loc>
         <lastmod>2020-05-09T08:32:13.554Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -186,14 +194,6 @@
     <url>
         <loc>https://goberomsu.github.io/2020/05/09/CustomHexo/</loc>
         <lastmod>2020-05-09T03:34:34.378Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/05/09/BeFriendWithLinux-3/</loc>
-        <lastmod>2020-05-09T03:29:32.803Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
