@@ -8,6 +8,38 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/2020/05/09/%EB%A6%AC%EB%88%85%EC%8A%A4%EB%9E%91%20%EC%A7%B1%EC%B9%9C%20%EB%A8%B9%EA%B8%B0_3/</loc>
+        <lastmod>2020-05-11T02:57:51.632Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/05/08/%EB%A6%AC%EB%88%85%EC%8A%A4%EB%9E%91%20%EC%A7%B1%EC%B9%9C%20%EB%A8%B9%EA%B8%B0_2/</loc>
+        <lastmod>2020-05-11T02:57:44.444Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/05/08/%EB%A6%AC%EB%88%85%EC%8A%A4%EB%9E%91%20%EC%A7%B1%EC%B9%9C%20%EB%A8%B9%EA%B8%B0_1/</loc>
+        <lastmod>2020-05-11T02:57:33.937Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/05/03/%EC%B9%BC%EB%A6%AC%EB%A6%AC%EB%88%85%EC%8A%A4%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</loc>
+        <lastmod>2020-05-11T02:56:28.005Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/2020/05/10/javascript%EB%9E%80%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/</loc>
         <lastmod>2020-05-11T02:54:34.754Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -26,14 +58,6 @@
     <url>
         <loc>https://goberomsu.github.io/2020/05/09/javascript%EA%B1%B4%EB%93%A4%EC%97%AC%EB%B3%B4%EA%B8%B0/</loc>
         <lastmod>2020-05-11T02:54:21.714Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/05/09/%EB%A6%AC%EB%88%85%EC%8A%A4%EB%9E%91%20%EC%A7%B1%EC%B9%9C%20%EB%A8%B9%EA%B8%B0_3/</loc>
-        <lastmod>2020-05-11T02:53:45.827Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -90,14 +114,6 @@
     <url>
         <loc>https://goberomsu.github.io/2020/05/04/%EB%A6%AC%EB%88%85%EC%8A%A4%EB%A7%88%EC%8A%A4%ED%84%B0_%EB%A6%AC%EB%88%85%EC%8A%A4%EC%9A%B4%EC%98%81%EB%B0%8F%EA%B4%80%EB%A6%AC/</loc>
         <lastmod>2020-05-11T02:35:11.703Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/05/03/%EC%B9%BC%EB%A6%AC%EB%A6%AC%EB%88%85%EC%8A%A4%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</loc>
-        <lastmod>2020-05-11T02:34:47.648Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -170,22 +186,6 @@
     <url>
         <loc>https://goberomsu.github.io/2020/05/09/HexoTheme%EA%BE%B8%EB%AF%B8%EA%B8%B0/</loc>
         <lastmod>2020-05-11T02:29:44.813Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/05/08/%EB%A6%AC%EB%88%85%EC%8A%A4%EB%9E%91%20%EC%A7%B1%EC%B9%9C%20%EB%A8%B9%EA%B8%B0_2/</loc>
-        <lastmod>2020-05-11T02:28:37.350Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/05/08/%EB%A6%AC%EB%88%85%EC%8A%A4%EB%9E%91%20%EC%A7%B1%EC%B9%9C%20%EB%A8%B9%EA%B8%B0_1/</loc>
-        <lastmod>2020-05-11T02:28:18.500Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
