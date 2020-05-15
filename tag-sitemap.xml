@@ -3,6 +3,27 @@
 
 
     <url>
+        <loc>https://goberomsu.github.io/tags/OS/</loc>
+        <lastmod>2020-05-15T12:49:45.445Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/tags/%25EC%258A%25A4%25EC%25BC%2580%25EC%25A4%2584%25EB%259F%25AC/</loc>
+        <lastmod>2020-05-15T12:22:50.138Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/tags/%25EC%25BB%25B4%25ED%258C%258C%25EC%259D%25BC%25EB%259F%25AC/</loc>
+        <lastmod>2020-05-15T12:22:50.138Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/tags/hacking/</loc>
         <lastmod>2020-05-11T08:36:56.290Z</lastmod>
         <changefreq>weekly</changefreq>
