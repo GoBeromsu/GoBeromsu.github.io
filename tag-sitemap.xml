@@ -3,29 +3,36 @@
 
 
     <url>
-        <loc>https://goberomsu.github.io/tags/%25EC%259D%25B8%25ED%2584%25B0%25ED%2594%2584%25EB%25A6%25AC%25ED%2584%25B0/</loc>
-        <lastmod>2020-05-15T13:06:15.485Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/tags/%25EC%25BB%25B4%25ED%258C%258C%25EC%259D%25BC%25EB%259F%25AC/</loc>
-        <lastmod>2020-05-15T13:06:15.485Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/tags/OS/</loc>
-        <lastmod>2020-05-15T12:52:54.359Z</lastmod>
+        <loc>https://goberomsu.github.io/tags/life/</loc>
+        <lastmod>2020-05-15T13:16:45.101Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://goberomsu.github.io/tags/%25EC%258A%25A4%25EC%25BC%2580%25EC%25A4%2584%25EB%259F%25AC/</loc>
-        <lastmod>2020-05-15T12:22:50.138Z</lastmod>
+        <lastmod>2020-05-15T13:14:19.243Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/tags/%25EC%25BB%25B4%25ED%258C%258C%25EC%259D%25BC%25EB%259F%25AC/</loc>
+        <lastmod>2020-05-15T13:14:19.243Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/tags/OS/</loc>
+        <lastmod>2020-05-15T13:14:04.119Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/tags/%25EC%259D%25B8%25ED%2584%25B0%25ED%2594%2584%25EB%25A6%25AC%25ED%2584%25B0/</loc>
+        <lastmod>2020-05-15T13:13:52.013Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -68,13 +75,6 @@
     <url>
         <loc>https://goberomsu.github.io/tags/python/</loc>
         <lastmod>2020-05-09T07:20:31.566Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/tags/life/</loc>
-        <lastmod>2020-05-09T07:17:41.200Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
