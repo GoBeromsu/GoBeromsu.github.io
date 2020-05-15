@@ -3,6 +3,13 @@
 
 
     <url>
+        <loc>https://goberomsu.github.io/tags/OS/</loc>
+        <lastmod>2020-05-15T17:51:18.204Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/tags/life/</loc>
         <lastmod>2020-05-15T13:16:45.101Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -19,13 +26,6 @@
     <url>
         <loc>https://goberomsu.github.io/tags/%25EC%25BB%25B4%25ED%258C%258C%25EC%259D%25BC%25EB%259F%25AC/</loc>
         <lastmod>2020-05-15T13:14:19.243Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/tags/OS/</loc>
-        <lastmod>2020-05-15T13:14:04.119Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
