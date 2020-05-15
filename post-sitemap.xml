@@ -8,6 +8,22 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/2020/05/15/ProgrammingWithIpad/</loc>
+        <lastmod>2020-05-15T18:40:35.336Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/05/15/WhyYouNeedASideProject/</loc>
+        <lastmod>2020-05-15T18:39:37.622Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/2020/05/16/%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC%EC%96%B4%EC%99%80%EC%96%B4%EC%85%88%EB%B8%94%EB%9F%AC/</loc>
         <lastmod>2020-05-15T18:35:14.020Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -50,22 +66,6 @@
     <url>
         <loc>https://goberomsu.github.io/2020/05/15/javascript%EB%A1%9C%ED%8C%A8%ED%82%B7%EA%B5%AC%EA%B2%BD%ED%95%98%EA%B8%B0/</loc>
         <lastmod>2020-05-15T13:36:08.766Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/05/15/ProgrammingWithIpad/</loc>
-        <lastmod>2020-05-15T13:34:57.535Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/05/15/WhyYouNeedASideProject/</loc>
-        <lastmod>2020-05-15T13:27:56.965Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

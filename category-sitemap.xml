@@ -8,6 +8,34 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/categories/programming/Nomad/</loc>
+        <lastmod>2020-05-15T18:40:35.336Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/categories/programming/</loc>
+        <lastmod>2020-05-15T18:40:35.336Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/categories/Programming/Nomad/</loc>
+        <lastmod>2020-05-15T18:39:37.622Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/categories/Programming/</loc>
+        <lastmod>2020-05-15T18:39:37.622Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/categories/%25EC%259E%2590%25EA%25B2%25A9%25EC%25A6%259D/%25EC%25A0%2595%25EB%25B3%25B4%25EC%25B2%2598%25EB%25A6%25AC%25EC%2582%25B0%25EC%2597%2585%25EA%25B8%25B0%25EC%2582%25AC/OS/</loc>
         <lastmod>2020-05-15T18:35:14.020Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -24,34 +52,6 @@
     <url>
         <loc>https://goberomsu.github.io/categories/%25EC%259E%2590%25EA%25B2%25A9%25EC%25A6%259D/</loc>
         <lastmod>2020-05-15T18:35:14.020Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/programming/Nomad/</loc>
-        <lastmod>2020-05-15T13:34:57.535Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/programming/</loc>
-        <lastmod>2020-05-15T13:34:57.535Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/Programming/Nomad/</loc>
-        <lastmod>2020-05-15T13:27:56.965Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/Programming/</loc>
-        <lastmod>2020-05-15T13:27:56.965Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
