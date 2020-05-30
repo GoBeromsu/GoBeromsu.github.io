@@ -9,21 +9,28 @@
 
     <url>
         <loc>https://goberomsu.github.io/categories/Programming/Nomad/</loc>
-        <lastmod>2020-05-26T14:53:08.532Z</lastmod>
+        <lastmod>2020-05-28T05:23:22.050Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://goberomsu.github.io/categories/Programming/</loc>
-        <lastmod>2020-05-26T14:53:08.532Z</lastmod>
+        <lastmod>2020-05-28T05:23:22.050Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/categories/infosec119/</loc>
+        <lastmod>2020-05-28T05:01:12.923Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://goberomsu.github.io/categories/Sound/</loc>
-        <lastmod>2020-05-26T14:40:56.908Z</lastmod>
+        <lastmod>2020-05-26T14:55:48.879Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -80,13 +87,6 @@
     <url>
         <loc>https://goberomsu.github.io/categories/Linux/</loc>
         <lastmod>2020-05-11T08:38:30.099Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/infosec119/</loc>
-        <lastmod>2020-05-11T08:36:56.290Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
