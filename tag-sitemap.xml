@@ -3,22 +3,43 @@
 
 
     <url>
-        <loc>https://goberomsu.github.io/tags/vscode/</loc>
-        <lastmod>2020-06-23T10:18:18.639Z</lastmod>
+        <loc>https://goberomsu.github.io/tags/hacking/</loc>
+        <lastmod>2020-06-23T16:14:03.981Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://goberomsu.github.io/tags/hacking/</loc>
-        <lastmod>2020-06-23T10:18:17.454Z</lastmod>
+        <loc>https://goberomsu.github.io/tags/C/</loc>
+        <lastmod>2020-06-23T16:13:04.034Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/tags/python/</loc>
+        <lastmod>2020-06-23T16:12:37.526Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://goberomsu.github.io/tags/Blog/</loc>
-        <lastmod>2020-06-23T10:18:15.954Z</lastmod>
+        <lastmod>2020-06-23T16:11:07.208Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/tags/git/</loc>
+        <lastmod>2020-06-23T16:11:04.592Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/tags/vscode/</loc>
+        <lastmod>2020-06-23T10:18:18.639Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -59,29 +80,8 @@
     </url>
 
     <url>
-        <loc>https://goberomsu.github.io/tags/C/</loc>
-        <lastmod>2020-05-11T03:08:28.545Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://goberomsu.github.io/tags/linux/</loc>
         <lastmod>2020-05-11T02:57:44.444Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/tags/python/</loc>
-        <lastmod>2020-05-09T07:20:31.566Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/tags/git/</loc>
-        <lastmod>2020-05-09T07:16:49.267Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
