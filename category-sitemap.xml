@@ -8,6 +8,20 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/categories/infosec119/wargame/</loc>
+        <lastmod>2020-06-23T05:00:16.670Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/categories/infosec119/</loc>
+        <lastmod>2020-06-23T05:00:16.670Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/categories/%25EA%25B5%25B0%25EB%258C%2580/</loc>
         <lastmod>2020-06-15T16:50:44.270Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -24,13 +38,6 @@
     <url>
         <loc>https://goberomsu.github.io/categories/Programming/</loc>
         <lastmod>2020-06-01T07:01:18.678Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/infosec119/</loc>
-        <lastmod>2020-05-28T05:01:12.923Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
