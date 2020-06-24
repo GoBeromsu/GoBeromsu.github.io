@@ -3,6 +3,13 @@
 
 
     <url>
+        <loc>https://goberomsu.github.io/tags/life/</loc>
+        <lastmod>2020-06-24T04:20:53.145Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/tags/hacking/</loc>
         <lastmod>2020-06-23T16:14:03.981Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -40,13 +47,6 @@
     <url>
         <loc>https://goberomsu.github.io/tags/vscode/</loc>
         <lastmod>2020-06-23T10:18:18.639Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/tags/life/</loc>
-        <lastmod>2020-05-26T14:55:48.879Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
