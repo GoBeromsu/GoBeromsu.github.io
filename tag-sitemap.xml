@@ -4,7 +4,14 @@
 
     <url>
         <loc>https://goberomsu.github.io/tags/life/</loc>
-        <lastmod>2020-06-30T07:27:50.042Z</lastmod>
+        <lastmod>2020-06-30T07:32:07.402Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/tags/hacking/</loc>
+        <lastmod>2020-06-30T07:30:19.047Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -12,13 +19,6 @@
     <url>
         <loc>https://goberomsu.github.io/tags/C/</loc>
         <lastmod>2020-06-30T07:26:03.762Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/tags/hacking/</loc>
-        <lastmod>2020-06-30T07:23:03.464Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
