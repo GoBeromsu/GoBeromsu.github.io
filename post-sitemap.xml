@@ -8,8 +8,48 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/2020/05/04/CrusadeSetUp_Origin/</loc>
+        <lastmod>2020-06-30T07:27:50.042Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/04/06/Infoesec_onlinecamp/</loc>
+        <lastmod>2020-06-30T07:26:03.762Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/04/30/VscodeExtension/</loc>
+        <lastmod>2020-06-30T07:24:22.779Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/04/30/soundstudy_1/</loc>
+        <lastmod>2020-06-30T07:23:53.342Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/05/03/%EC%B9%BC%EB%A6%AC%20%EB%A6%AC%EB%88%85%EC%8A%A4%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%B4%88%EA%B8%B0%20%EC%84%B8%ED%8C%85/</loc>
+        <lastmod>2020-06-30T07:23:03.464Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/2020/06/24/%EA%B8%B0%EC%88%A0%EB%AC%B8%EC%84%9C/</loc>
-        <lastmod>2020-06-29T13:27:04.650Z</lastmod>
+        <lastmod>2020-06-29T15:48:25.435Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -88,14 +128,6 @@
     </url>
 
     <url>
-        <loc>https://goberomsu.github.io/2020/05/04/CrusadeSetUp_Origin/</loc>
-        <lastmod>2020-06-25T05:23:40.231Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://goberomsu.github.io/2020/06/24/%EC%A0%80%EC%96%B4%EC%96%B4%EC%97%89%EB%A7%90%EC%9D%B4%EA%B1%B4%EC%95%8C%EC%95%84%EC%95%BC%ED%95%B4/</loc>
         <lastmod>2020-06-24T11:55:00.842Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -106,14 +138,6 @@
     <url>
         <loc>https://goberomsu.github.io/2020/05/14/SoundStudy_2/</loc>
         <lastmod>2020-06-24T04:20:39.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/04/30/soundstudy_1/</loc>
-        <lastmod>2020-06-24T04:20:33.398Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -282,14 +306,6 @@
     <url>
         <loc>https://goberomsu.github.io/2020/05/11/Infosec-associatemember/</loc>
         <lastmod>2020-06-23T16:14:03.981Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/04/06/Infoesec_onlinecamp/</loc>
-        <lastmod>2020-06-23T16:13:04.034Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -472,14 +488,6 @@
     </url>
 
     <url>
-        <loc>https://goberomsu.github.io/2020/05/03/%EC%B9%BC%EB%A6%AC%EB%A6%AC%EB%88%85%EC%8A%A4%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</loc>
-        <lastmod>2020-05-11T03:08:42.536Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://goberomsu.github.io/2020/05/08/%EB%A6%AC%EB%88%85%EC%8A%A4%EB%9E%91%20%EC%A7%B1%EC%B9%9C%20%EB%A8%B9%EA%B8%B0_2/</loc>
         <lastmod>2020-05-11T02:57:44.444Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -602,14 +610,6 @@
     <url>
         <loc>https://goberomsu.github.io/2020/05/09/HexoTheme%EA%BE%B8%EB%AF%B8%EA%B8%B0/</loc>
         <lastmod>2020-05-11T02:29:44.813Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/04/30/VscodeExtension/</loc>
-        <lastmod>2020-05-09T07:17:41.200Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
