@@ -8,6 +8,20 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/categories/%25EC%259E%2590%25EA%25B2%25A9%25EC%25A6%259D/%25EC%25A0%2595%25EB%25B3%25B4%25EC%25B2%2598%25EB%25A6%25AC%25EC%2582%25B0%25EC%2597%2585%25EA%25B8%25B0%25EC%2582%25AC/</loc>
+        <lastmod>2020-07-03T08:21:25.569Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/categories/%25EC%259E%2590%25EA%25B2%25A9%25EC%25A6%259D/</loc>
+        <lastmod>2020-07-03T08:21:25.569Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/categories/infosec119/%25EC%25A4%2580%25ED%259A%258C%25EC%259B%2590/%25EA%25B8%25B0%25EC%2588%25A0-%25EB%25AC%25B8%25EC%2584%259C/</loc>
         <lastmod>2020-07-02T12:43:39.097Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -24,20 +38,6 @@
     <url>
         <loc>https://goberomsu.github.io/categories/infosec119/</loc>
         <lastmod>2020-07-02T12:43:39.097Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/%25EC%259E%2590%25EA%25B2%25A9%25EC%25A6%259D/%25EC%25A0%2595%25EB%25B3%25B4%25EC%25B2%2598%25EB%25A6%25AC%25EC%2582%25B0%25EC%2597%2585%25EA%25B8%25B0%25EC%2582%25AC/</loc>
-        <lastmod>2020-06-30T12:44:04.955Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/%25EC%259E%2590%25EA%25B2%25A9%25EC%25A6%259D/</loc>
-        <lastmod>2020-06-30T12:44:04.955Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
