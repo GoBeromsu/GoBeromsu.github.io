@@ -8,6 +8,20 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/categories/Linux/Kali-Linux/</loc>
+        <lastmod>2020-07-07T11:32:09.469Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/categories/Linux/</loc>
+        <lastmod>2020-07-07T11:32:09.469Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/categories/infosec119/%25EC%25A4%2580%25ED%259A%258C%25EC%259B%2590/%25EA%25B8%25B0%25EC%2588%25A0-%25EB%25AC%25B8%25EC%2584%259C/</loc>
         <lastmod>2020-07-05T18:07:35.899Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -87,20 +101,6 @@
     <url>
         <loc>https://goberomsu.github.io/categories/Sound/study/</loc>
         <lastmod>2020-06-30T07:23:53.342Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/Linux/Kali-Linux/</loc>
-        <lastmod>2020-06-30T07:23:03.464Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/Linux/</loc>
-        <lastmod>2020-06-30T07:23:03.464Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
