@@ -8,15 +8,29 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/categories/%25EC%259E%2590%25EA%25B2%25A9%25EC%25A6%259D/%25EC%25A0%2595%25EB%25B3%25B4%25EC%25B2%2598%25EB%25A6%25AC%25EC%2582%25B0%25EC%2597%2585%25EA%25B8%25B0%25EC%2582%25AC/</loc>
+        <lastmod>2020-07-08T13:23:24.776Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/categories/%25EC%259E%2590%25EA%25B2%25A9%25EC%25A6%259D/</loc>
+        <lastmod>2020-07-08T13:23:24.776Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/categories/Linux/Kali-Linux/</loc>
-        <lastmod>2020-07-08T12:18:15.469Z</lastmod>
+        <lastmod>2020-07-08T13:08:48.852Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://goberomsu.github.io/categories/Linux/</loc>
-        <lastmod>2020-07-08T12:18:15.469Z</lastmod>
+        <lastmod>2020-07-08T13:08:48.852Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -38,20 +52,6 @@
     <url>
         <loc>https://goberomsu.github.io/categories/infosec119/</loc>
         <lastmod>2020-07-05T18:07:35.899Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/%25EC%259E%2590%25EA%25B2%25A9%25EC%25A6%259D/%25EC%25A0%2595%25EB%25B3%25B4%25EC%25B2%2598%25EB%25A6%25AC%25EC%2582%25B0%25EC%2597%2585%25EA%25B8%25B0%25EC%2582%25AC/</loc>
-        <lastmod>2020-07-03T08:21:25.569Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/%25EC%259E%2590%25EA%25B2%25A9%25EC%25A6%259D/</loc>
-        <lastmod>2020-07-03T08:21:25.569Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
