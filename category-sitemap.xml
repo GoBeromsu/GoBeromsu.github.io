@@ -9,7 +9,14 @@
 
     <url>
         <loc>https://goberomsu.github.io/categories/Kotlin/</loc>
-        <lastmod>2020-07-14T13:31:00.352Z</lastmod>
+        <lastmod>2020-07-16T14:29:51.669Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/categories/%25EA%25B5%25B0%25EB%258C%2580/</loc>
+        <lastmod>2020-07-16T13:58:26.553Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -94,13 +101,6 @@
     <url>
         <loc>https://goberomsu.github.io/categories/infosec119/</loc>
         <lastmod>2020-07-05T18:07:35.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/%25EA%25B5%25B0%25EB%258C%2580/</loc>
-        <lastmod>2020-06-30T09:17:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
