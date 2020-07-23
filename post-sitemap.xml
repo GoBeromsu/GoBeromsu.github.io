@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/2020/06/16/%EC%9D%98%EB%AC%B4%ED%95%B4%EA%B2%BD%EB%A9%B4%EC%A0%91%EC%A4%80%EB%B9%84/</loc>
+        <lastmod>2020-07-23T23:29:36.535Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/2020/07/18/%EC%BD%94%ED%8B%80%EB%A6%B04%EC%9D%BC%EC%B0%A8/</loc>
         <lastmod>2020-07-18T09:15:05.677Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -314,14 +322,6 @@
     <url>
         <loc>https://goberomsu.github.io/2020/05/11/Infosec-associatemember/</loc>
         <lastmod>2020-06-30T09:17:24.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/06/16/%ED%95%B4%EA%B2%BD%EB%A9%B4%EC%A0%91%EC%A4%80%EB%B9%84/</loc>
-        <lastmod>2020-06-30T09:17:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
