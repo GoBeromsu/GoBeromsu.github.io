@@ -8,6 +8,13 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/categories/Kotlin/</loc>
+        <lastmod>2020-08-16T08:42:52.946Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/categories/Sound/crusade/</loc>
         <lastmod>2020-08-16T04:50:36.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,13 +24,6 @@
     <url>
         <loc>https://goberomsu.github.io/categories/Sound/</loc>
         <lastmod>2020-08-16T04:50:36.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/Kotlin/</loc>
-        <lastmod>2020-08-16T04:37:27.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
