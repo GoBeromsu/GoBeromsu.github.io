@@ -8,14 +8,21 @@
     </url>
 
     <url>
-        <loc>https://goberomsu.github.io/categories/Programming/%25EC%259A%25B0%25EB%258B%2588/</loc>
-        <lastmod>2020-08-16T14:40:04.715Z</lastmod>
+        <loc>https://goberomsu.github.io/categories/Programming/Nomad/</loc>
+        <lastmod>2020-08-16T14:43:53.269Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://goberomsu.github.io/categories/Programming/</loc>
+        <lastmod>2020-08-16T14:43:53.269Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/categories/Programming/%25EC%259A%25B0%25EB%258B%2588/</loc>
         <lastmod>2020-08-16T14:40:04.715Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -136,13 +143,6 @@
     <url>
         <loc>https://goberomsu.github.io/categories/Sound/study/</loc>
         <lastmod>2020-06-30T07:23:53.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/Programming/Nomad/</loc>
-        <lastmod>2020-06-23T16:57:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

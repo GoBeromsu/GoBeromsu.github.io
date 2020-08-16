@@ -8,6 +8,22 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/2020/05/28/whatIsServerless/</loc>
+        <lastmod>2020-08-16T14:43:53.269Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://goberomsu.github.io/2020/05/28/jQuery%EB%B0%B0%EC%9B%8C%EC%95%BC%ED%95%A0%EA%B9%8C/</loc>
+        <lastmod>2020-08-16T14:42:21.234Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/2020/06/24/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%8C%80%EA%B8%B0%EC%97%85%EC%B7%A8%EC%97%85%ED%95%98%EB%8A%94%EB%B2%95/</loc>
         <lastmod>2020-08-16T14:40:04.715Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -458,22 +474,6 @@
     <url>
         <loc>https://goberomsu.github.io/2020/05/14/SoundStudy_2/</loc>
         <lastmod>2020-06-24T04:20:39.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/05/28/whatIsServerless/</loc>
-        <lastmod>2020-06-23T16:57:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/05/28/jQuery%EB%B0%B0%EC%9B%8C%EC%95%BC%ED%95%A0%EA%B9%8C/</loc>
-        <lastmod>2020-06-23T16:56:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
