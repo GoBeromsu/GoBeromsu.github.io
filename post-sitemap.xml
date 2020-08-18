@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://goberomsu.github.io/2020/08/05/%EB%82%98%EB%A7%8C%EC%9D%98%EC%95%B1%EB%A7%8C%EB%93%A4%EA%B8%B0/</loc>
+        <lastmod>2020-08-18T14:27:13.179Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://goberomsu.github.io/2020/08/16/hexoBlogRebuilding/</loc>
         <lastmod>2020-08-16T15:37:14.845Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -50,14 +58,6 @@
     <url>
         <loc>https://goberomsu.github.io/2020/06/24/%EC%BD%94%EB%94%A9%EC%9D%98%EB%AA%A9%EC%A0%81/</loc>
         <lastmod>2020-08-16T14:34:04.747Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/2020/08/05/%EB%82%98%EB%A7%8C%EC%9D%98%EC%95%B1%EB%A7%8C%EB%93%A4%EA%B8%B0/</loc>
-        <lastmod>2020-08-16T14:23:57.855Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
