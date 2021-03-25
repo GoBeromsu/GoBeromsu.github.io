@@ -32,21 +32,14 @@
 
     <url>
         <loc>https://goberomsu.github.io/tags/life/</loc>
-        <lastmod>2020-07-09T06:27:32.000Z</lastmod>
+        <lastmod>2020-06-30T07:24:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://goberomsu.github.io/tags/hacking/</loc>
-        <lastmod>2020-06-30T09:17:24.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/tags/C/</loc>
-        <lastmod>2020-06-30T07:26:03.000Z</lastmod>
+        <lastmod>2020-06-30T07:23:03.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
