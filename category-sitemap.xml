@@ -29,27 +29,6 @@
     </url>
 
     <url>
-        <loc>https://goberomsu.github.io/categories/Programming/%25EC%259A%25B0%25EB%258B%2588/</loc>
-        <lastmod>2020-08-16T14:34:04.747Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/Programming/</loc>
-        <lastmod>2020-08-16T14:34:04.747Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/%25EA%25B5%25B0%25EB%258C%2580/</loc>
-        <lastmod>2020-07-23T23:29:36.535Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://goberomsu.github.io/categories/%25EC%259E%2590%25EA%25B2%25A9%25EC%25A6%259D/%25EC%25A0%2595%25EB%25B3%25B4%25EC%25B2%2598%25EB%25A6%25AC%25EC%2582%25B0%25EC%2597%2585%25EA%25B8%25B0%25EC%2582%25AC/%25EC%258B%25A4%25EA%25B8%25B0/</loc>
         <lastmod>2020-07-17T10:44:16.763Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -157,13 +136,6 @@
     <url>
         <loc>https://goberomsu.github.io/categories/javascript/</loc>
         <lastmod>2020-06-23T10:18:26.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://goberomsu.github.io/categories/Programming/Nomad/</loc>
-        <lastmod>2020-06-23T10:18:23.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
